@@ -5,11 +5,12 @@
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="fuel" class="com.substring.core.concepts.Fuel">
-
+    <bean id="fuel" class="com.substring.core.concepts.Fuel" />
+    <bean id="engine1" class="com.substring.core.concepts.Engine" autowire="byType">
+        <!--            <property name="fuel" ref="fuel" />-->
+        <!--        <constructor-arg ref="fuel" />-->
     </bean>
-
-
+    <bean id="car1" class="com.substring.core.concepts.Car" autowire="byType" />
 
 
 </beans>
