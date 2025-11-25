@@ -33,7 +33,7 @@ public class App {
 //        Car car1 = context.getBean("car1", Car.class);
 //        car1.startCar();
 
-        ApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
+        AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
 
         Fuel fuel = context.getBean("petrolFuel", Fuel.class);
         fuel.use();
@@ -43,6 +43,9 @@ public class App {
         System.out.println("============================");
         Car car = context.getBean("car", Car.class);
         car.startCar();
+        System.out.println(car.carName);
+
+        context.registerShutdownHook();
 
     }
 }

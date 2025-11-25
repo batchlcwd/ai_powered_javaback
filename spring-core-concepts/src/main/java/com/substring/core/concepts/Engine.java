@@ -8,6 +8,7 @@ public class Engine {
 
     //engine will depend on fuel
 
+
     private Fuel fuel;
 
 
@@ -24,6 +25,8 @@ public class Engine {
     public Fuel getFuel() {
         return fuel;
     }
+
+
 
 
     public void setFuel(Fuel fuel) {
