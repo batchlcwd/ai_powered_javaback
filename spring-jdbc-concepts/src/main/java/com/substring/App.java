@@ -28,6 +28,7 @@ public class App {
 
             IO.println("Press 1 to add user");
             IO.println("Press 2 to show all users: ");
+            IO.println("Press 3 to sow detail by name");
             int inputChoice = Integer.parseInt(IO.readln("Your choice:"));
 
 
@@ -47,6 +48,15 @@ public class App {
                         IO.println(user.getId() + " : " + user.getName() + " : " + user.getPhone());
                     });
                     IO.println("__________________________");
+                }
+                case 3->{
+
+                    String name=IO.readln("Enter you name : ");
+                    User user = userService.findByNameJdbcClient(name);
+                    System.out.println(user.getId()+" : "+user.getName()+" : "+user.getPhone());
+                    IO.println();
+
+
                 }
 
                 default -> {
