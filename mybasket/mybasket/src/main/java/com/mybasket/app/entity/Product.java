@@ -2,6 +2,9 @@ package com.mybasket.app.entity;
 
 import jakarta.persistence.*;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "my-basket-products")
 public class Product {
@@ -16,6 +19,9 @@ public class Product {
     private  boolean live;
     private  boolean outOfStock;
     private  String imageUri;
+
+    @ManyToMany
+    private Set<Category> categories=new LinkedHashSet<>();
 
 
     public Long getProductId() {

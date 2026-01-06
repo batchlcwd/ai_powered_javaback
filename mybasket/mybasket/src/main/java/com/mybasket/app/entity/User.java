@@ -1,9 +1,11 @@
 package com.mybasket.app.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "my-basket-users")
@@ -17,6 +19,20 @@ public class User {
 
     @Column(unique = true, length = 100)
     private String email;
+
+    private String password;
+
+    private String userImageUrl;
+
+
+    //this field will create new table :
+    @OneToMany(
+            mappedBy = "user",
+            cascade = CascadeType.ALL
+
+    )
+    private Set<Address> addresses = new HashSet<>();
+
 
     public int getUserId() {
         return userId;
@@ -40,5 +56,21 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getUserImageUrl() {
+        return userImageUrl;
+    }
+
+    public void setUserImageUrl(String userImageUrl) {
+        this.userImageUrl = userImageUrl;
     }
 }
