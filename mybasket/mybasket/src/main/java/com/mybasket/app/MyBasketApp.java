@@ -1,6 +1,7 @@
 package com.mybasket.app;
 
 import com.mybasket.app.entity.Product;
+import com.mybasket.app.entity.User;
 import com.mybasket.app.repository.CategoryRepository;
 import com.mybasket.app.repository.ProductRepository;
 import com.mybasket.app.repository.UserRepository;
@@ -10,8 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class MyBasketApp implements CommandLineRunner {
 
     @Autowired
@@ -55,20 +58,39 @@ public class MyBasketApp implements CommandLineRunner {
 //        System.out.println("product saved");
 
 
-        productRepository.findByProductIdAndTitle(1, "Iphone 17 pro qwrqwtmax")
-                .ifPresentOrElse(product -> {
-                            System.out.println(product.getTitle() + " : " + product.getPrice());
-                        },
-                        () -> {
-                            System.out.println("Product not found!!");
-                        }
-                );
+//        productRepository.findByProductIdAndTitle(1, "Iphone 17 pro qwrqwtmax")
+//                .ifPresentOrElse(product -> {
+//                            System.out.println(product.getTitle() + " : " + product.getPrice());
+//                        },
+//                        () -> {
+//                            System.out.println("Product not found!!");
+//                        }
+//                );
+//
+//        ;
+//
+//        productRepository.getAllProduct().stream().forEach(product -> {
+//            System.out.println(product.getTitle());
+//        });
 
-        ;
 
-        productRepository.getAllProduct().stream().forEach(product -> {
-            System.out.println(product.getTitle());
-        });
+
+//        User user=new User();
+//        user.setName("Vivek");
+//        user.setEmail("vivek@gmail.com");
+//        user.setPassword("abc@11223");
+//        user.setUserImageUrl("abc.png");
+//
+//        userRepository.save(user);
+
+
+        userRepository.findById(1).ifPresentOrElse(user1 -> {
+                    userRepository.delete(user1);
+                },
+                () -> {
+                    System.out.println("user is already deleted");
+                });
+
 
     }
 }

@@ -7,7 +7,8 @@ import java.util.Set;
 
 @Entity
 @Table(name = "my-basket-products")
-public class Product {
+
+public class Product extends  BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

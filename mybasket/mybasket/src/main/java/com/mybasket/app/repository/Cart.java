@@ -1,4 +1,8 @@
 package com.mybasket.app.repository;
 
-public interface Cart {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface Cart extends JpaRepository<Cart,Long> {
 }

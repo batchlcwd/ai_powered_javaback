@@ -22,12 +22,14 @@ public class Order {
     @Enumerated(EnumType.STRING)
     private OrderStatus orderStatus = OrderStatus.PLACED;
 
-    @Enumerated(EnumType.STRING)
-    private PaymentStatus paymentStatus = PaymentStatus.PENDING;
 
 
     @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<OrderItem> orderItems = new ArrayList<>();
+
+
+    @OneToOne(mappedBy = "order")
+    private  Payment payment;
 
 
 }

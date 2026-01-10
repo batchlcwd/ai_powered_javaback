@@ -14,7 +14,7 @@ public class Address {
     private  String pincode;
 
     //responsible for foreign key
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
 
