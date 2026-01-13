@@ -84,13 +84,13 @@ public class MyBasketApp implements CommandLineRunner {
 //        userRepository.save(user);
 
 
-        userRepository.findById(1).ifPresentOrElse(user1 -> {
-                    userRepository.delete(user1);
-                },
-                () -> {
-                    System.out.println("user is already deleted");
-                });
-
+//        userRepository.findById(1).ifPresentOrElse(user1 -> {
+//                    userRepository.delete(user1);
+//                },
+//                () -> {
+//                    System.out.println("user is already deleted");
+//                });
+//
 
     }
 }
