@@ -2,9 +2,9 @@ package com.mybasket.app.controller;
 
 
 import com.mybasket.app.entity.Product;
-import com.mybasket.app.repository.ProductRepository;
-import org.springframework.http.HttpMethod;
-import org.springframework.stereotype.Controller;
+import com.mybasket.app.service.ProductService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,33 +15,56 @@ import java.util.List;
 public class ProductController {
 
 
-    private ProductRepository productRepository;
+    private ProductService productService;
 
-    public ProductController(ProductRepository productRepository) {
-        this.productRepository = productRepository;
+    public ProductController(ProductService productService) {
+        this.productService = productService;
     }
 
     //Resource : Product
 
     //to get all products
-//    @RequestMapping(method = RequestMethod.GET)
-//    @ResponseBody
+    //@RequestMapping(method = RequestMethod.GET)
+    // @ResponseBody
     @GetMapping
     public List<Product> getProducts() {
-        List<Product> all = productRepository.findAll();
-        return all;
+        return productService.getAll();
     }
 
     //get single  product
-//    @RequestMapping(value = "/{productId}", method = RequestMethod.GET)
-//    @ResponseBody
+    //@RequestMapping(value = "/{productId}", method = RequestMethod.GET)
+    //@ResponseBody
+    //uri path variable
     @GetMapping("/{productId}")
-    public Product getSingleProduct(@PathVariable("productId") Long productId){
-        Product product = productRepository.findById(productId).orElseThrow(() -> new RuntimeException("product not found !!"));
-        return product;
+    public Product getSingleProduct(@PathVariable("productId") Long productId) {
+        return productService.get(productId);
     }
 
-//    10 methods
+    // 10 methods
+    //create product:
+    @PostMapping
+    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+//        System.out.println("Product name : "+product.getTitle());
+//        System.out.println("Creating product");
+        //validations-- actual validations
+        Product savedEntity = productService.createProduct(product);
+        return new ResponseEntity<>(savedEntity, HttpStatus.CREATED);
+    }
 
+    // update  products:
+    @PutMapping("/{productId}")
+    public ResponseEntity<Product> updateProduct(@PathVariable("productId") Long productId, @RequestBody Product product) {
+        // fetch the existing product
+        Product savedProduct = productService.udpateProduct(productId, product);
+        return new ResponseEntity<>(savedProduct, HttpStatus.OK);
+    }
+
+    //delete api for product:
+    @DeleteMapping("/{productId}")
+    public ResponseEntity<Void> deleteProduct(@PathVariable("productId") Long productId) {
+        productService.delete(productId);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+
+    }
 
 }
