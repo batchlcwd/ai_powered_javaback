@@ -1,25 +1,29 @@
 package com.mybasket.app.service.impl;
 
+import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
 import com.mybasket.app.repository.ProductRepository;
 import com.mybasket.app.service.ProductService;
+import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService {
 
-    private ProductRepository productRepository;
+    private final ProductRepository productRepository;
 
+    private final ModelMapper modelMapper;
 
-    public ProductServiceImpl(ProductRepository productRepository) {
-        this.productRepository = productRepository;
-    }
 
     @Override
-    public Product createProduct(Product product) {
-        return productRepository.save(product);
+    public ProductDto createProduct(ProductDto productDto) {
+        var product = modelMapper.map(productDto, Product.class);
+        var savedProduct = productRepository.save(product);
+        return modelMapper.map(savedProduct, ProductDto.class);
     }
 
     @Override

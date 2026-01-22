@@ -1,21 +1,18 @@
 package com.mybasket.app.service;
 
-import com.mybasket.app.entity.User;
-import com.mybasket.app.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import com.mybasket.app.dto.UserDto;
 
-@Service
-public class UserService {
+import java.util.List;
 
-    @Autowired
-    private UserRepository userRepository;
+public interface UserService {
 
-    public void saveUser(User user) {
-        User user1 = userRepository.save(user);
-        System.out.println(user1.getUserId());
-        System.out.println("user is saved:");
+    UserDto createUser(UserDto userDto);
 
+    UserDto updateUser(Integer userId, UserDto userDto);
 
-    }
+    void deleteUser(Integer userId);
+
+    List<UserDto> getAllUsers();
+
+    UserDto getUser(Integer userId);
 }

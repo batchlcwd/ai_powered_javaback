@@ -1,6 +1,7 @@
 package com.mybasket.app.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,6 +17,8 @@ public class Product extends  BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long productId;
+
+
     private  String title;
     private  String description;
     private  String short_description;

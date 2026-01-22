@@ -1,8 +1,10 @@
 package com.mybasket.app.controller;
 
 
+import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
 import com.mybasket.app.service.ProductService;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -43,11 +45,18 @@ public class ProductController {
     // 10 methods
     //create product:
     @PostMapping
-    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+    public ResponseEntity<ProductDto> createProduct(@Valid @RequestBody ProductDto productdto) {
+
+        //validations ke logic manual
+//        if(product.getTitle().isBlank()){
+//            return new
+//        }
+
+
 //        System.out.println("Product name : "+product.getTitle());
 //        System.out.println("Creating product");
         //validations-- actual validations
-        Product savedEntity = productService.createProduct(product);
+        ProductDto savedEntity = productService.createProduct(productdto);
         return new ResponseEntity<>(savedEntity, HttpStatus.CREATED);
     }
 

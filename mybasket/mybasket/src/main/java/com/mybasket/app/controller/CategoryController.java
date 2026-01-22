@@ -17,38 +17,44 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CategoryController {
 
-    private  final CategoryService categoryService;
+    private final CategoryService categoryService;
 
-
-    //create
+    // create
     @PostMapping
-    public ResponseEntity<CategoryDto> createCategory(@RequestBody CategoryDto categoryDto){
-        CategoryDto category1=categoryService.create(categoryDto);
+    public ResponseEntity<CategoryDto> createCategory(@RequestBody CategoryDto categoryDto) {
+        CategoryDto category1 = categoryService.create(categoryDto);
         return new ResponseEntity<>(category1, HttpStatus.CREATED);
 
     }
-    //update
-    //get all
+
+    // get all
     @GetMapping
-    public ResponseEntity<List<CategoryDto>> getAll(){
-        List<CategoryDto> list=categoryService.getAll();
-        return new ResponseEntity<>(list,HttpStatus.OK);
+    public ResponseEntity<List<CategoryDto>> getAll() {
+        List<CategoryDto> list = categoryService.getAll();
+        return new ResponseEntity<>(list, HttpStatus.OK);
 
     }
 
-
-    //get single
+    // get single
     @GetMapping("/{categoryId}")
     public ResponseEntity<CategoryDto> get(
-            @PathVariable("categoryId") Long categoryId
-    ){
-        CategoryDto categoryDto= categoryService.get(categoryId);
-        return new ResponseEntity<>(categoryDto,HttpStatus.OK);
+            @PathVariable("categoryId") Long categoryId) {
+        CategoryDto categoryDto = categoryService.get(categoryId);
+        return new ResponseEntity<>(categoryDto, HttpStatus.OK);
     }
 
+    // update
+    @PutMapping("/{categoryId}")
+    public ResponseEntity<CategoryDto> update(@PathVariable("categoryId") Long categoryId,
+            @RequestBody CategoryDto categoryDto) {
+        CategoryDto updatedCategory = categoryService.update(categoryId, categoryDto);
+        return new ResponseEntity<>(updatedCategory, HttpStatus.OK);
+    }
 
-
-
-    //delete
-
+    // delete
+    @DeleteMapping("/{categoryId}")
+    public ResponseEntity<Void> delete(@PathVariable("categoryId") Long categoryId) {
+        categoryService.delete(categoryId);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

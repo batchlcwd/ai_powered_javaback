@@ -1,5 +1,6 @@
 package com.mybasket.app.service;
 
+import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
 
 import java.util.List;
@@ -8,7 +9,7 @@ public interface ProductService {
 
 
 
-    Product createProduct(Product product);
+    ProductDto createProduct(ProductDto product);
     //update the product
     Product udpateProduct(Long productId, Product product);
 
