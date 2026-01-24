@@ -1,11 +1,16 @@
 package com.mybasket.app.service.impl;
 
+import com.mybasket.app.dto.PageResponse;
 import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
 import com.mybasket.app.repository.ProductRepository;
 import com.mybasket.app.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -41,8 +46,14 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> getAll() {
-        return productRepository.findAll();
+    public PageResponse<Product> getAll(int page, int size, String sortBy, String sortDir) {
+        Sort sort = sortDir.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        //pagination- information
+        Pageable pageable = PageRequest.of(page, size, sort);
+        Page<Product> pagePrdoucts = productRepository.findAll(pageable);
+        return PageResponse.of(pagePrdoucts);
+
+//        return productRepository.findAll();
     }
 
     @Override

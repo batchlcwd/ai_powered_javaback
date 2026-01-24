@@ -1,6 +1,8 @@
 package com.mybasket.app.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.SQLRestriction;
 
@@ -11,7 +13,8 @@ import java.util.*;
 @Table(name = "my-basket-users")
 @SQLDelete(sql = "update `my-basket-users` SET deleted = true WHERE jpa_user_id = ?")
 @SQLRestriction("deleted = false")
-
+@Getter
+@Setter
 public class User  extends  BaseEntity{
 
     @Id
@@ -33,7 +36,8 @@ public class User  extends  BaseEntity{
     @OneToMany(
             mappedBy = "user",
             cascade = CascadeType.ALL,
-            fetch = FetchType.EAGER
+            fetch = FetchType.EAGER,
+            orphanRemoval = true
 
 
     )

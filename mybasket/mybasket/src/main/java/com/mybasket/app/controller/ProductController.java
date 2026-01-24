@@ -1,10 +1,13 @@
 package com.mybasket.app.controller;
 
 
+import com.mybasket.app.dto.PageResponse;
 import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
 import com.mybasket.app.service.ProductService;
 import jakarta.validation.Valid;
+
+import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,8 +32,13 @@ public class ProductController {
     //@RequestMapping(method = RequestMethod.GET)
     // @ResponseBody
     @GetMapping
-    public List<Product> getProducts() {
-        return productService.getAll();
+    public PageResponse<Product> getProducts(
+            @RequestParam(value = "page", defaultValue = "0") int page,
+            @RequestParam(value = "size", defaultValue = "10") int size,
+            @RequestParam("sortBy") String sortBy,
+            @RequestParam(value = "sortDir",defaultValue = "asc") String sortDir
+    ) {
+        return productService.getAll(page, size,sortBy,sortDir);
     }
 
     //get single  product
