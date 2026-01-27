@@ -1,0 +1,3386 @@
+WEBVTT
+
+1
+00:00:04.130 --> 00:00:23.810
+Substring Technologies: Ha, toh, kabi koi aaph ye jo side baharmsko aap left meker right mekar sakto, agar aapko sai lektar, toh, kabi ki aap tri kalia kari, hi ka, sub 9HG. So, yaha say aap move primary sidebar to right karke ye wala aapna working area banana sektu, side. Agar ajay. For example, agar, like, mankar rabap ka, to, kabi ki mein tray karta hai na sab jji.
+
+2
+00:00:23.870 --> 00:00:27.300
+Substring Technologies: store.
+
+3
+00:00:27.550 --> 00:00:28.390
+Substring Technologies: figure?
+
+4
+00:00:28.580 --> 00:00:33.529
+Substring Technologies: And EA Project, Sivaji Store is like selling the products.
+
+5
+00:00:33.650 --> 00:00:40.170
+Substring Technologies: website ko, ek, asap website banana, so that hum,
+
+6
+00:00:40.520 --> 00:00:42.820
+Substring Technologies: Product ko yaha pe aake karif saga.
+
+7
+00:00:43.020 --> 00:00:44.130
+Substring Technologies: Samja muite.
+
+8
+00:00:45.150 --> 00:00:55.950
+Substring Technologies: Product ko dek sakta hai, card meinatkar sakta hai ig bar card may data ad hoge, then order place ka sakta hai, order place hoge, then waase, aapne orders haya, dich sakta hai. Titrok samajka main kayakani ko se kar rom hiit.
+
+9
+00:00:56.060 --> 00:00:58.570
+Substring Technologies: ye kuch asar type kar project hoga.
+
+10
+00:00:59.020 --> 00:01:08.879
+Substring Technologies: Kase? Like, local estate management, components, router…
+
+11
+00:01:08.960 --> 00:01:22.670
+Substring Technologies: global state management, abap ke pass option hai aaph global state kili context API use karoo, ki juststand user ki react toolkit use karoo, ya sabchij mein aapko padharak ka. Parakka hai ko ru.
+
+12
+00:01:23.010 --> 00:01:24.060
+Substring Technologies: Paradarka?
+
+13
+00:01:26.710 --> 00:01:28.029
+Substring Technologies: For a lot of cookin-y!
+
+14
+00:01:34.180 --> 00:01:36.260
+Substring Technologies: karaoke.
+
+15
+00:01:37.320 --> 00:01:42.820
+Substring Technologies: Yes, so I have actually taught you everything, jo basic ek project banana kare zerotha hai.
+
+16
+00:01:50.500 --> 00:01:55.889
+Substring Technologies: Get a look Like, just stand ki help seh state ko managed kasak toh.
+
+17
+00:01:57.240 --> 00:01:58.259
+Substring Technologies: How many of you?
+
+18
+00:01:58.740 --> 00:01:59.770
+Substring Technologies: Just 10.
+
+19
+00:02:03.450 --> 00:02:04.760
+Substring Technologies: Okay, te lug.
+
+20
+00:02:05.230 --> 00:02:11.020
+Substring Technologies: React… yeah, React Redux ya bolein toh RTK use case to. React Toolkit.
+
+21
+00:02:12.480 --> 00:02:17.930
+Substring Technologies: for managing… global state.
+
+22
+00:02:18.260 --> 00:02:19.910
+Substring Technologies: Let's see, how many of you?
+
+23
+00:02:20.460 --> 00:02:25.520
+Substring Technologies: lava hai.
+
+24
+00:02:25.990 --> 00:02:45.019
+Substring Technologies: Exactly. RTK agarapy us karna jarath of slices kay us karke, kar sakho, bilkulahi, or agar just-and use karna jarath, just end ki har se bana aapko bhadata, just end kabi sahathali sekhto. And, yes, context JB aapko, like, both chota applications ke liy use karna chai, jise theme provider hogya yako chokayaise, theme oya, egg value single stroh karmi.
+
+25
+00:02:45.330 --> 00:02:49.820
+Substring Technologies: But mostly aap just stand-up screw, ya fir RTK usuro.
+
+26
+00:02:50.370 --> 00:02:51.320
+Substring Technologies: Tika?
+
+27
+00:02:52.690 --> 00:02:53.680
+Substring Technologies: Okay?
+
+28
+00:02:56.070 --> 00:02:56.930
+Substring Technologies: Okay.
+
+29
+00:03:02.580 --> 00:03:04.350
+Substring Technologies: Tika kumal, muite.
+
+30
+00:03:05.210 --> 00:03:23.270
+Substring Technologies: Prabhat, Prisha, sort of… Now, ab react toolkit kyagarta hai, like, mahaluhami, project banana ya?
+
+31
+00:03:23.830 --> 00:03:45.840
+Substring Technologies: aur unhune kaaki hai, or basically, hamare products ko karit mein.
+
+32
+00:03:46.410 --> 00:03:48.340
+Substring Technologies: Products go by kasakdam.
+
+33
+00:03:49.370 --> 00:03:50.410
+Substring Technologies: Someday?
+
+34
+00:03:50.760 --> 00:03:52.179
+Substring Technologies: Product ko baikasagna.
+
+35
+00:03:53.850 --> 00:04:03.929
+Substring Technologies: A product bike? Product card may add kann. Basically, une yeh bula ke ser baikar saktne, but bhai se kami ubase. Let me open brief.
+
+36
+00:04:06.970 --> 00:04:10.549
+Substring Technologies: So, let's open a Skelled draw, and here…
+
+37
+00:04:11.620 --> 00:04:14.199
+Substring Technologies: I think it is humbrook karcha na.
+
+38
+00:04:15.270 --> 00:04:16.209
+Substring Technologies: Yes.
+
+39
+00:04:17.740 --> 00:04:20.709
+Substring Technologies: Okay? To product ko kyaga sakte hain, baika sakhne.
+
+40
+00:04:24.150 --> 00:04:40.130
+Substring Technologies: Toh ham ni kaya, hamne lets hamne, simply kahu banate bahi. Toh hamne keh i sabse palli ek react ka project ready kali. React ka project ready kali.
+
+41
+00:04:40.340 --> 00:04:53.750
+Substring Technologies: project ready hoge ha. Toh… Tailwind CSS installed. Tailwind CSS. For designing, for CSS library, that means for design.
+
+42
+00:04:54.480 --> 00:04:58.289
+Substring Technologies: Aapk maneu arai ki kyahan misgelama koi library use ka sakney tu bhkulahap.
+
+43
+00:04:58.480 --> 00:05:12.280
+Substring Technologies: bootstrap use case to bootstrap use case to. And, there are a lot of libraries. Toh bootstrap use case to, meh bartehad itong, if you can do that also. Toh agari hapi lah, bootstrap.
+
+44
+00:05:13.120 --> 00:05:28.119
+Substring Technologies: Yes, this bootstrap you can use, apesko B, use kar sakto, NPMI, bootstrap use kar ka, read the documentation hai, and yaha pei components aapko melaienge, so you can use these components, bohot dinoga main use karamus ko, but pahale mein boho saathaiska use kartata.
+
+45
+00:05:28.130 --> 00:05:38.999
+Substring Technologies: Yes, I use a lot of projects. I don't know.
+
+46
+00:05:39.070 --> 00:05:47.960
+Substring Technologies: max of the time, use kar know Tailwind CSSC. Toh, igwar aapiskoi checkout kar saktu.
+
+47
+00:05:51.490 --> 00:05:52.479
+Substring Technologies: Saw it again?
+
+48
+00:05:52.870 --> 00:05:55.680
+Substring Technologies: Toh firal menika ki ha.
+
+49
+00:05:56.130 --> 00:05:58.050
+Substring Technologies: Manit Tailwind install kalia?
+
+50
+00:05:58.250 --> 00:06:02.629
+Substring Technologies: Now, aap tailwind CSS jab install oge, uske baada mein kuch aur components chai yoga.
+
+51
+00:06:03.100 --> 00:06:05.069
+Substring Technologies: Case components yung?
+
+52
+00:06:05.940 --> 00:06:21.160
+Substring Technologies: component chihi, Toast.
+
+53
+00:06:22.020 --> 00:06:34.920
+Substring Technologies: Toast. Aur conse component se ha, state management kili, if you want RTK uskarna ha RTK uskar sak toh, celam mein React toolkit. Jaha ja mein RTK aknau aap redux samos loi, ki ye redex hai.
+
+54
+00:06:35.530 --> 00:06:49.610
+Substring Technologies: Like, if you want to just stand to abjastan bioska sak toh. Some other mein rihad me kya kainosis karun. Toh ye saare aapko component seh, or ko library, project kandar, Mohit, is there any library that we need?
+
+55
+00:06:50.400 --> 00:06:51.290
+Substring Technologies: Take care.
+
+56
+00:06:51.500 --> 00:07:10.400
+Substring Technologies: If you want some components, aapko tailwind ke components, to uske leh libraries is ka nama shared sein. Abi mein skubi use karke di homeo, search yeun EY. Toh jease, for example, aapko button bani banae chai. Aapko barbas kiasisna parta hai. So agar aap chahatu kya bani banae.
+
+57
+00:07:10.770 --> 00:07:14.319
+Substring Technologies: kasemal karlein.
+
+58
+00:07:14.590 --> 00:07:26.789
+Substring Technologies: To uskele hum, like sehsia namare paise, api meiska use karke di kangar uska yap us kar sah tu. Toh aseh karke, there are n number for libraries, tohum, ek karke install karke aapkodi karte. Toh me heart hai, just open a…
+
+59
+00:07:27.310 --> 00:07:35.559
+Substring Technologies: Like… NPM, i.e, react router lei lathe, react toastify file, react hot toast lehte.
+
+60
+00:07:35.720 --> 00:07:36.990
+Substring Technologies: Hot?
+
+61
+00:07:37.840 --> 00:07:42.459
+Substring Technologies: Toastly redein, and, redact a la kyata yar? I don't know.
+
+62
+00:07:42.800 --> 00:07:45.770
+Substring Technologies: redux b.
+
+63
+00:07:46.210 --> 00:07:48.489
+Substring Technologies: React? Like, react?
+
+64
+00:07:48.900 --> 00:07:56.510
+Substring Technologies: or Redux, or… TK. TK. Toh aapko.
+
+65
+00:07:56.770 --> 00:08:01.409
+Substring Technologies: React Toolkit, installation, toh, just install this.
+
+66
+00:08:01.810 --> 00:08:06.630
+Substring Technologies: And react to me. So…
+
+67
+00:08:07.110 --> 00:08:24.709
+Substring Technologies: What we want? We also want React Redux. Tome mein React Redux, beach hai, tum react redux pilei. Paka, or go library, strategy nabi kasi kar hain batanga, aap npm a karji, you will find ki 2 minute hai sap kuchwa jayka.
+
+68
+00:08:25.960 --> 00:08:31.840
+Substring Technologies: So, abte ko ya, package.json open kalu, just to see. Kemare passena peari libraries achuki, abdeco.
+
+69
+00:08:32.159 --> 00:08:47.170
+Substring Technologies: React Hot Toast, React Redux, React Router, Tailwind CSS, and Tailwind, sorry, and ReactJS Toolkit. Interesting. Or koijis jo requirement hai, hamare project ki?
+
+70
+00:08:47.410 --> 00:08:57.900
+Substring Technologies: aur shared library.
+
+71
+00:08:58.320 --> 00:09:04.639
+Substring Technologies: Top shad, search yan. Kit talagne pehilin nam sona sarcia, search ye nihai. Library.
+
+72
+00:09:05.000 --> 00:09:09.440
+Substring Technologies: Kisina bhi suna hunam.
+
+73
+00:09:11.440 --> 00:09:16.269
+Substring Technologies: Madhune, or… Madhu aap regular classes karai yuna, mein dektam aapkanam.
+
+74
+00:09:17.450 --> 00:09:25.189
+Substring Technologies: concept, other important hai.
+
+75
+00:09:25.300 --> 00:09:28.660
+Substring Technologies: kapata.
+
+76
+00:09:28.840 --> 00:09:30.800
+Substring Technologies: Ticket developer's key.
+
+77
+00:09:31.260 --> 00:09:32.780
+Substring Technologies: To make sure gap.
+
+78
+00:09:33.300 --> 00:09:35.610
+Substring Technologies: aapka.
+
+79
+00:09:38.060 --> 00:09:40.680
+Substring Technologies: In previous class, in ChatGPT, you showed
+
+80
+00:09:41.180 --> 00:09:59.029
+Substring Technologies: Toh hamne auth project mein saathshean use ke da, mein batada tokbar, usko use karnah bisikade huh? Kyuki mostly askal tailwind ki saath sat shyan bohos ada yuzodi. Toh no meinter di klu?
+
+81
+00:09:59.350 --> 00:10:07.509
+Substring Technologies: component library hai. Toh Tailwind CSS and Tailwind CSS, or search ye library meinter hai.
+
+82
+00:10:07.590 --> 00:10:24.420
+Substring Technologies: This is actually for, like, CSS classes. Then, uske baad aid garne CSS classes kudse hai.
+
+83
+00:10:24.550 --> 00:10:27.590
+Substring Technologies: aka.
+
+84
+00:10:28.330 --> 00:10:40.820
+Substring Technologies: Toh CSS classes, like, raw CSS mein hail ekna hai, agaram tailwind CSS use karna. Toh ye CSS classes may provide karta, tailwind CSS, designing. Lekind evalai haana, ye ha me, actually, components we provide karte hai.
+
+85
+00:10:41.000 --> 00:10:42.160
+Substring Technologies: components.
+
+86
+00:10:42.530 --> 00:10:43.830
+Substring Technologies: Combo?
+
+87
+00:10:44.600 --> 00:10:50.040
+Substring Technologies: Components ka matna, this will provide, actually.
+
+88
+00:10:50.630 --> 00:10:56.810
+Substring Technologies: components, directly aap, ko ek button component mill jaga, us button component kay us kara bus. That's it.
+
+89
+00:10:58.020 --> 00:11:06.460
+Substring Technologies: customize kar sakto, exactly.
+
+90
+00:11:06.460 --> 00:11:22.080
+Substring Technologies: Like material in Angular? Yeah. Material meek hai ki aapko code nahi milta hai. Said sheniva kaya karta hai, aapke code ko a apne project kenda download kar karak dita hai. So, aap us code ko bhi download, change kar sap toh, agar aapk requiremente toh.
+
+91
+00:11:22.440 --> 00:11:34.230
+Substring Technologies: As a search and library ga concept, thoughts are different. Hala ki output jo, aapko result melega, that will be the same. Mohit. Thinka? Result aapko same melega, ispe component will jaga, aap directly us kur, usmeh bh component bill jyata directly us karo.
+
+92
+00:11:34.350 --> 00:11:40.089
+Substring Technologies: Samantha, lekin, jo tarika hai rollage. Saatchin ka karta hai, it will download the button.
+
+93
+00:11:40.370 --> 00:11:45.839
+Substring Technologies: code inside your project. Aapke project kenda download kartega, aur fir aapusko change bhar sakto if you want.
+
+94
+00:11:46.150 --> 00:12:01.069
+Substring Technologies: components ko, but code uska dicta ni aurap change nahi kar saktos code ko. Alahe customization hai, but code mein jaaki aap changes nahi kar sakteo.
+
+95
+00:12:01.230 --> 00:12:02.880
+Substring Technologies: Somebody's gonna be robotic error.
+
+96
+00:12:04.960 --> 00:12:17.109
+Substring Technologies: Like, hamare pass year hai section library, iskandra components pe aate hai, toh, you will find a lot of components here.
+
+97
+00:12:18.100 --> 00:12:37.810
+Substring Technologies: default button, yawali mari button hai, like, outline button, yawali button hai, secondary button, yawali button hai, ghost, yawi button hai. Destructive yawi button hai, link, yawali button hai.
+
+98
+00:12:37.810 --> 00:12:54.419
+Substring Technologies: Icon button is terase ho sakti hai, with icon yo sakti hai. Samadur meivat, rounded button ko chasi ho sakti hai, spinner button Si, aapne dikha bio asi. Think hai? Button group aapka aisakta hai. Thinkab kayne ga madhab, ye jo code hai inka use karoge, to aapko ku chessa output, millimale.
+
+99
+00:12:54.660 --> 00:13:02.800
+Substring Technologies: Done. Then they say card agar aapko uskar na, aurap card search kalu. You will see, you can create card like this.
+
+100
+00:13:02.910 --> 00:13:04.060
+Substring Technologies: Interesting.
+
+101
+00:13:04.720 --> 00:13:06.330
+Substring Technologies: Interesting, I agree.
+
+102
+00:13:06.690 --> 00:13:09.120
+Substring Technologies: Interesting, yeah, bohot, bohot, bohot, bohot, interesting.
+
+103
+00:13:09.240 --> 00:13:15.549
+Substring Technologies: So, aap aise card bana sakto, and kuchase components aapko melange, just say, here they go.
+
+104
+00:13:15.760 --> 00:13:22.410
+Substring Technologies: Card, card action, card content. In components kasemal karu kuch aisa, aur aapko essay card.
+
+105
+00:13:22.510 --> 00:13:23.930
+Substring Technologies: Redesigning will lag.
+
+106
+00:13:24.490 --> 00:13:36.490
+Substring Technologies: control k dabaw, and you find a lot of things, Jasey, for example, amareka chalo model search karte, dialogue.
+
+107
+00:13:36.750 --> 00:13:38.590
+Substring Technologies: Die, dialogue.
+
+108
+00:13:38.730 --> 00:13:43.889
+Substring Technologies: So, you will find, herea dialog, kusha dialog, dialog ko use case to a.
+
+109
+00:13:45.460 --> 00:13:46.370
+Substring Technologies: Bigger?
+
+110
+00:13:46.560 --> 00:13:51.810
+Substring Technologies: Interesting. Okay, so yeah, actually, for designing purpose, Kaylee, use the…
+
+111
+00:13:52.430 --> 00:13:56.510
+Substring Technologies: CSS ko yiga, right? Tailwind CS ko, but Tailwind CSS…
+
+112
+00:13:56.860 --> 00:13:58.810
+Substring Technologies: Components hai ye provide karta hai.
+
+113
+00:13:59.450 --> 00:14:17.220
+Substring Technologies: We can use the components like this. Even akarapin ke homepage page augana, you will find, like, if you go to the home page, you will find some components also. Some pages, and, like, they call dashboard page, leisaktu.
+
+114
+00:14:17.220 --> 00:14:20.610
+Substring Technologies: aka.
+
+115
+00:14:20.610 --> 00:14:36.470
+Substring Technologies: tasks ko chasa, you had design banana saktu. Mando, basically, inse prenatali saktu aaph. Authentication ko chasa bana saktu istarf aapka, brand logo, oh, brand logo images ho sakhneur is right side mein thorosa aapka, like, form o garaho sakta hai. Same merivaro.
+
+116
+00:14:36.480 --> 00:14:44.389
+Substring Technologies: And bhos are examples, like, asser syncing dihar sakte ho. Toh, malab kafi printlah legar ke aap cheeje bananasaktiho.
+
+117
+00:14:44.550 --> 00:14:56.870
+Substring Technologies: installation ka. Then, ap framework jodi rakai us framework ko use karke, aur fir aapapne project kenda install kar logi ska.
+
+118
+00:14:57.230 --> 00:14:58.280
+Substring Technologies: Solid value!
+
+119
+00:14:58.610 --> 00:15:15.830
+Substring Technologies: If you want to use material UI, toh material EVY bhi aapke base. React mein. Aap agar dehog get ape react material EY agar search kur ghe, react material UI, toh, yes, react component that implement material design. Toh aap material EVY components kabisak toe mohi.
+
+120
+00:15:16.220 --> 00:15:35.889
+Substring Technologies: projects mein, in components ka, use hota hai. Jika? ERP hogara mein, ya, like, enterprise mein, in components, yeh bh free use hot hai, toh, in components ka bhistemalap kar sahto, like, just say, for example, ye ko, table, aapne deika bh yoga bhot bar. Table kuku chai sa pana hai.
+
+121
+00:15:36.390 --> 00:15:41.680
+Substring Technologies: Okay, like, data tables to hotah, select karne ke liye. To ye jutis hai, this is actually, like…
+
+122
+00:15:41.780 --> 00:15:50.309
+Substring Technologies: aapko light theme karke di ka.
+
+123
+00:15:50.800 --> 00:15:56.190
+Substring Technologies: So, just say, for example, aapko dialogue na, use karna hai ko. This is a simple dialogue, yeah.
+
+124
+00:15:56.450 --> 00:16:13.080
+Substring Technologies: toh, actually jo, material UI, material design based hoti. Uska look and feel kuch alagi ho da hain. Toh, jitter materialism, us material design ko follow karti. Ho chai fir angular ki wo chai react ki ho.
+
+125
+00:16:13.420 --> 00:16:17.110
+Substring Technologies: aap barmanasak to.
+
+126
+00:16:17.730 --> 00:16:24.010
+Substring Technologies: These type of web bars, you can create. Angular material web.
+
+127
+00:16:24.250 --> 00:16:35.939
+Substring Technologies: agarap bottom navigation banana char bottom navigation kuch aseh bana septu, aapagara mei jo aptek toh, ni cheek sites. Draw rugara aap aise banana sekhno, ye go.
+
+128
+00:16:36.810 --> 00:16:48.340
+Substring Technologies: look and feel different yoga. Aapko kisar isko use case karna hai, use simply aapko installation dih na, getting started pey jogo installation pe jog. I will find ki aapko Sinstall karne hai, then SSE use karne hai.
+
+129
+00:16:48.760 --> 00:16:56.889
+Substring Technologies: Components, ja se agar mein aapko di harpe control k, ish meh bhag button search karo, you will find iski buttons koch different type kitiking huh
+
+130
+00:16:57.300 --> 00:17:06.060
+Substring Technologies: Like, Johammari… wahi.
+
+131
+00:17:06.170 --> 00:17:16.800
+Substring Technologies: So, these are the… these provides components, but inkal look and feel alla goga, kiyo ki material design ko follow karthi.
+
+132
+00:17:17.180 --> 00:17:25.060
+Substring Technologies: for the production, production mein.
+
+133
+00:17:25.400 --> 00:17:32.470
+Substring Technologies: starting seh CSS or components ko banana gzarut na bran hai, hum, apnek calam pe jada focus kar saki.
+
+134
+00:17:32.800 --> 00:17:36.730
+Substring Technologies: How many of you got this point?
+
+135
+00:17:36.870 --> 00:17:49.909
+Substring Technologies: Saurav, Prisha, Prabhar. Aap koge sir, itanihi libraries, there are n number of libraries here, n number of libraries. Aap Google jaoke, search karug, uske a ko limiting, aapi hap ba search karoge, like, React Component Library.
+
+136
+00:17:50.250 --> 00:17:57.189
+Substring Technologies: list. You will find, here they go. Ek aunt designed bhi aapne sun ooga, chakra ya aapne sun oga, dike, sum me aapko di hatong.
+
+137
+00:17:57.340 --> 00:18:13.360
+Substring Technologies: Chakra EY. Aapi api chakra EY bhi, aapne sun aka bohot thi famous library. Thika? So, iski bh documentation bhjawke. This also provides a lot of components. Boho sari components aapko mill den.
+
+138
+00:18:13.750 --> 00:18:20.949
+Substring Technologies: Same? Why? But look and feel thora different, huh?
+
+139
+00:18:21.180 --> 00:18:30.230
+Substring Technologies: So, control case meini kamkar rag ka, let me see, let me see. Control K, exactly. We find iski button protrasap different deki.
+
+140
+00:18:31.290 --> 00:18:40.079
+Substring Technologies: ISM is k buttons thoras are different dikhe. Aur ye buttons bhi boho saare mein use hoti, denamar pass, react bootstrap ki de ko react bootstrap.
+
+141
+00:18:40.240 --> 00:18:49.809
+Substring Technologies: If you want, use to appreact bootstrap B, use kasak toh, react bootstrap, for, like, component library for the React.
+
+142
+00:18:49.950 --> 00:19:00.029
+Substring Technologies: But design johe, put strap use hoge. Iske component summary alag hain. Same bitwah. Tohiskanap bar, different toga, look and feel different toga, baki output samewala aapka.
+
+143
+00:19:00.170 --> 00:19:04.850
+Substring Technologies: aka.
+
+144
+00:19:05.070 --> 00:19:14.680
+Substring Technologies: There are a lot of libraries, dike hai.
+
+145
+00:19:15.400 --> 00:19:27.830
+Substring Technologies: We use karke. Use karna boht simple hota, aapko jada la fra name, aapko di katokase us karna hai.
+
+146
+00:19:28.170 --> 00:19:35.439
+Substring Technologies: Like, for example, suppose hamne decide kiya ki ham use karaatsian library. Toh aapko getting started pageana hai, and just…
+
+147
+00:19:35.970 --> 00:19:48.959
+Substring Technologies: Installation page installation may apna framework use karna hai. To usme se aapka use kara. Next.js toh us nahi kar rho. Hamluk wheat use karne, aapko humluk nahi project banana usme npm, create VEET at the rate latest use kiata. Yada ki bohole ghe.
+
+148
+00:19:49.050 --> 00:19:56.730
+Substring Technologies: So, may score light theme kalitao, and just follow this.
+
+149
+00:19:56.950 --> 00:20:20.440
+Substring Technologies: So, hum pahi to NPM use karan, toh npm select kali. Hame project banana ta ho banale hai. Think hai? Hame if you install karna da tailwind CSS obi install karlein. Hame, tailwind CSS import karna obi import karle hain aapko dihadao, hame ye project banana se pahele ye sep kam karleyata. Toh agar mein, like, index dot CSS diamondo humne ya pe use karli hai. Or is project ko mein celabi lia ta, so that tap dek sa ko, ya ha pei project.
+
+150
+00:20:20.670 --> 00:20:28.170
+Substring Technologies: To tailwind hame install kalera itana kam login karlia. I think itna kaam blogane karli ya.
+
+151
+00:20:28.780 --> 00:20:34.879
+Substring Technologies: agar de ko humbari pasek ties config file only chee hain.
+
+152
+00:20:34.990 --> 00:20:52.309
+Substring Technologies: Tsconfig matav samos toh typescript, deko, agar aap TypeScript ka version use karto, tohi doro fileti hai. Tsconfig milti hai, aur ek file melti hamari tsconfig.app.json. Toh kyuki hum typescript tohuse mega kar hai, hum JavaScript use karn toh mega kunga mein thorough sa dimak lehonga.
+
+153
+00:20:52.310 --> 00:21:01.550
+Substring Technologies: json file beranga. Tik mein api harangua, right-click harunge, and new file click krunga, or nahap de junga, jsconfig.js.
+
+154
+00:21:01.970 --> 00:21:06.390
+Substring Technologies: jsconfig.js. Take care. Ajo content hai copy karaunga paste kar gumah.
+
+155
+00:21:06.650 --> 00:21:08.289
+Substring Technologies: Based on that. Perfect.
+
+156
+00:21:08.580 --> 00:21:15.189
+Substring Technologies: This is actually tsconfigapp.json file leira. Toh fillah lagi me chain karunga.
+
+157
+00:21:15.460 --> 00:21:22.110
+Substring Technologies: So, is file kanam bh mein, copy galunga, aura pe janga, or… sorry, file kan nam.
+
+158
+00:21:22.920 --> 00:21:25.950
+Substring Technologies: I don't know.
+
+159
+00:21:28.290 --> 00:21:36.870
+Substring Technologies: TypeScript zerothi nihoti bat tik.configi karate. Toham de donu file benali jsconfig.jsn, jsconfig.app.jsn.
+
+160
+00:21:36.880 --> 00:21:50.159
+Substring Technologies: wheatconfig.ts.json matap iske under ain abhi ye code lakhta hai.
+
+161
+00:21:50.210 --> 00:22:08.440
+Substring Technologies: apne app jsconfig.app.json ko de kenge, iske a under compiler option hai base hai part hai perfect file. Niha peyenge, to digo hamne, apne tsconfig ko change karke ka kar diata. jsconfig to mein aapay jsconfig.
+
+162
+00:22:08.850 --> 00:22:15.369
+Substring Technologies: jsconfig.app.json karteh, esco be jsconfig.app.json karte.
+
+163
+00:22:15.810 --> 00:22:28.230
+Substring Technologies: node.json tohar passay nihik file, ek file auronichahita. Nod agar hogi tuti ka, it's tsconfig.node.json node.json renderto.
+
+164
+00:22:28.230 --> 00:22:38.800
+Substring Technologies: Dike? Now, apenge aapne wheatconfig.ts fileco update karnege, aurame karna ke hai plugin mein React or tailwind rakna hai. Basame ya karna mein Resolve Utah ke.
+
+165
+00:22:38.880 --> 00:22:53.249
+Substring Technologies: apne, plugin ke, comma lagane ke baati resolve dalny. Abne beet konfi koutenge, comma lagahi plugin ke ba, resolve war dalenge. Hame kuchjiji chai yogi, like, import mein path chai yoga, toh path ko import kalita hai.
+
+166
+00:22:54.380 --> 00:23:03.479
+Substring Technologies: imported already, React imported hai, or ek, define config use wakia.
+
+167
+00:23:03.730 --> 00:23:04.550
+Substring Technologies: Hmm?
+
+168
+00:23:04.720 --> 00:23:12.020
+Substring Technologies: Define config from VIT. So… restart kalenge.
+
+169
+00:23:12.690 --> 00:23:15.850
+Substring Technologies: restart kalito.
+
+170
+00:23:16.490 --> 00:23:20.790
+Substring Technologies: NPM, run, dev kolehe, or mostly MR kam hochuka hai.
+
+171
+00:23:20.970 --> 00:23:32.249
+Substring Technologies: app.json my error array, like huh? Is deprecated, we will stop, functioning in, and will stop functioning in TypeScript. They go, hey karae.
+
+172
+00:23:32.500 --> 00:23:41.050
+Substring Technologies: safely, compiler option mein ignore deprecation to the silent this error. Toh mein compiler option mein hapi ek, like, ek option, deny ki ignore.
+
+173
+00:23:41.220 --> 00:23:44.250
+Substring Technologies: I don't know.
+
+174
+00:23:44.940 --> 00:23:45.790
+Substring Technologies: Take care.
+
+175
+00:23:46.310 --> 00:23:49.830
+Substring Technologies: hai ka hai.
+
+176
+00:23:50.490 --> 00:24:02.289
+Substring Technologies: TypeScript sahath mein, use ye typescript, chap sehan hogi, toh, like, function kam karna band karte ka, ye deprecated ochuga hai. Toh mujah lagar is file ke zerod bini, I don't know.
+
+177
+00:24:03.760 --> 00:24:11.740
+Substring Technologies: Should I… karlu.
+
+178
+00:24:12.020 --> 00:24:12.710
+Substring Technologies: Hmm?
+
+179
+00:24:15.220 --> 00:24:16.220
+Substring Technologies: Bueno.
+
+180
+00:24:16.580 --> 00:24:20.319
+Substring Technologies: Compiler options, be there a compiler options stick?
+
+181
+00:24:21.450 --> 00:24:22.330
+Substring Technologies: Tofu.
+
+182
+00:24:23.950 --> 00:24:28.739
+Substring Technologies: base URL is deprecated and will stop functioning in TypeScript 7, specify compiler option.
+
+183
+00:24:29.030 --> 00:24:29.780
+Substring Technologies: Hmm?
+
+184
+00:24:34.140 --> 00:24:48.619
+Substring Technologies: which is automatically set hojay, taposke tension nahi lany okay. Toh abde koge error amara, silent hojay. Abi beh ye kay raha, no input found.
+
+185
+00:24:53.420 --> 00:24:55.520
+Substring Technologies: eho.
+
+186
+00:25:00.210 --> 00:25:04.610
+Substring Technologies: To cheeks,
+
+187
+00:25:05.770 --> 00:25:09.659
+Substring Technologies: app.json na ULI file them already. App.json meh.
+
+188
+00:25:15.360 --> 00:25:29.340
+Substring Technologies: isko Bandkar.
+
+189
+00:25:29.340 --> 00:25:35.420
+Substring Technologies: aur button.
+
+190
+00:25:35.710 --> 00:25:47.870
+Substring Technologies: just ham look check karte, ya button lagakam kari kini kam karate. Tohoskele ham kya karing. Sapse leh mein install karna pada yada ko. We have to install this. NPM beside karos button ko, download karna pada ya, basically.
+
+191
+00:25:48.440 --> 00:26:06.710
+Substring Technologies: npx search latest add button. Click karnege, and dihan se dih na je. need to install the following packages. Bhai install kar do, or…
+
+192
+00:26:06.880 --> 00:26:07.920
+Substring Technologies: Igbar?
+
+193
+00:26:08.640 --> 00:26:24.589
+Substring Technologies: need to create a component.json. Ek file benay ka mein kara banana lo bhai. Abe pucha kaun same use karo ka, natural, neutral, gray, jink, stones, late abi neutral use kar munga. Here they go, i sari si update kar de ga, installing dependencies.
+
+194
+00:26:24.800 --> 00:26:31.820
+Substring Technologies: Isne de ko, index.css kendar paho saar Twitter dal dia, aur deko isneh dotin file benati ha maripas. Theek hai?
+
+195
+00:26:32.320 --> 00:26:48.140
+Substring Technologies: Ek util lib kandar util.js banana.js banana di hai, aur ek components kendar EY kendar button manadi hai. Components kendar EY kender button manadi ha. Toh, basically, snee kyagi, isne search en install kya fir aapko button use karna, to button ka pura code isne download kar lia ha.
+
+196
+00:26:48.530 --> 00:27:05.890
+Substring Technologies: is actually for downloading code and then using. app.jsis kendar, batan ko use kar sakne, jise, for example, ami yehapi agar button use karnata.
+
+197
+00:27:06.050 --> 00:27:06.890
+Substring Technologies: Tohan?
+
+198
+00:27:07.280 --> 00:27:08.339
+Substring Technologies: I'm a happy?
+
+199
+00:27:08.630 --> 00:27:13.839
+Substring Technologies: Button is kone hy button pata, kahase ari hugi. Yeh button humor yaarugi.
+
+200
+00:27:14.440 --> 00:27:15.390
+Substring Technologies: Gohazi.
+
+201
+00:27:15.810 --> 00:27:27.109
+Substring Technologies: components EY ke button.jsxe. Think import kar nunca, ye manual karna paragaya mein. So, let's see, exactly. Components EY ke button se ha.
+
+202
+00:27:27.890 --> 00:27:39.159
+Substring Technologies: abneh hape, like, output check kar hoge. Toh, it will find ki hammara button perfectly, dhikna chahi, and iba refresh kalu, maya refresh karam.
+
+203
+00:27:40.230 --> 00:27:43.719
+Substring Technologies: import, here they go.
+
+204
+00:27:44.070 --> 00:27:45.299
+Substring Technologies: They can't need it!
+
+205
+00:27:45.700 --> 00:27:50.990
+Substring Technologies: use karoge, like.
+
+206
+00:27:51.190 --> 00:28:04.009
+Substring Technologies: TypeScript is kuro gana, to ye doho file saise configure doongi hamari. Yeh don't file say se configure doong hi. A bh is file ko delete bharata doke, api calegamaragama sane. Dike? Ha, yeh file agar, like, delete bhikar do tabi chaliga, koi di kart nihoge.
+
+207
+00:28:04.860 --> 00:28:16.210
+Substring Technologies: K toak samoske, tohabi yahapi boho saara kam kar saktu, like, yaha pe aughe, or yaha pe use kurge ki hume variant use karna hai iska, outline. Toh agar outline variant use krughe, to istar se batan man dahi.
+
+208
+00:28:16.430 --> 00:28:17.350
+Substring Technologies: Bingo?
+
+209
+00:28:18.490 --> 00:28:19.840
+Substring Technologies: Que todoksamos queues.
+
+210
+00:28:20.490 --> 00:28:36.280
+Substring Technologies: kuch components ko, like, install karatham aapko, jaise, like aapko card use karna hai, toh, ya aapi card dikho.
+
+211
+00:28:37.640 --> 00:28:42.690
+Substring Technologies: Card use karna hai to card leh, ya wala card. Usku ke akanapaga, leik ni kay aapko deko.
+
+212
+00:28:43.380 --> 00:28:50.630
+Substring Technologies: hum lik denge.
+
+213
+00:28:50.700 --> 00:29:04.590
+Substring Technologies: Enter kartenga, it will add all the…
+
+214
+00:29:04.910 --> 00:29:09.420
+Substring Technologies: components here. Un sa ari code ko, hotah ke liega aur ad kar de ka.
+
+215
+00:29:10.140 --> 00:29:13.129
+Substring Technologies: Okay? So, it will actually do everything.
+
+216
+00:29:13.260 --> 00:29:20.780
+Substring Technologies: aapay.
+
+217
+00:29:21.190 --> 00:29:22.680
+Substring Technologies: Au tar biliaya.
+
+218
+00:29:22.830 --> 00:29:39.710
+Substring Technologies: Interesting hai kin niya pi log batau.
+
+219
+00:29:45.330 --> 00:29:46.370
+Substring Technologies: Bolobai.
+
+220
+00:29:54.430 --> 00:30:03.289
+Substring Technologies: Toh kuch jo, basic hamare components seh unkumane aapi ad karlia.
+
+221
+00:30:03.690 --> 00:30:05.560
+Substring Technologies: Do you get? Hmm.
+
+222
+00:30:11.980 --> 00:30:16.990
+Substring Technologies: Tohamka karte hain.
+
+223
+00:30:17.950 --> 00:30:19.950
+Substring Technologies: Kuch companies overall lei.
+
+224
+00:30:20.320 --> 00:30:29.439
+Substring Technologies: table, tohap table, yeast rash table banani paragina. So just aap usike ad kar sakte hai, or yaha se copy karke, aur ad kar sakte hain.
+
+225
+00:30:29.800 --> 00:30:32.109
+Substring Technologies: Adkar saknya, table ko bhi ad garsakne.
+
+226
+00:30:33.460 --> 00:30:34.340
+Substring Technologies: Tiger?
+
+227
+00:30:39.590 --> 00:30:52.330
+Substring Technologies: jsonconfig.app.json dohur majani wa hai. Aur majaani wa hai.
+
+228
+00:30:52.710 --> 00:30:56.259
+Substring Technologies: Basically, yahapi sap jji ho chuki hain.
+
+229
+00:30:56.640 --> 00:30:57.789
+Substring Technologies: And
+
+230
+00:30:58.700 --> 00:31:07.979
+Substring Technologies: wheat config meh ham logo ni hai, resolve mein el yas lagadia, resolve bagadiya, tiga sa pagadi ya.
+
+231
+00:31:08.150 --> 00:31:09.810
+Substring Technologies: Oh, Tika…
+
+232
+00:31:10.250 --> 00:31:20.639
+Substring Technologies: Is lain kaata kemat labi. Is lain ke matabai, jabapne resolve lagadi aur alias lagade, aka matapata hai ki hum SRC ko jahan jaan likhana chaare, uskom at the rate silik sakte.
+
+233
+00:31:20.770 --> 00:31:27.770
+Substring Technologies: ab.jskandar, ab.jsuskender, auriha jo import keya.
+
+234
+00:31:27.900 --> 00:31:37.030
+Substring Technologies: component samara, sRC kendara na, tohum at the rate likhe, represent kasakte hain apne src go. Yeh hotah aliasing joapne harpi bataaya hai.
+
+235
+00:31:37.190 --> 00:31:42.020
+Substring Technologies: use karenge.
+
+236
+00:31:42.240 --> 00:31:48.539
+Substring Technologies: At the rate method aap resolve kariega sRC varai folder ko. Ab aapko output mein error legi.
+
+237
+00:31:48.670 --> 00:31:51.089
+Substring Technologies: Output mein abi bh error email validity.
+
+238
+00:31:51.660 --> 00:31:58.570
+Substring Technologies: Uske baado… Like…
+
+239
+00:32:02.310 --> 00:32:04.280
+Substring Technologies: Madame wala huapo.
+
+240
+00:32:04.380 --> 00:32:06.069
+Substring Technologies: So, wait a second.
+
+241
+00:32:22.390 --> 00:32:24.419
+Substring Technologies: About 600 rupee, huh?
+
+242
+00:32:30.510 --> 00:32:33.450
+Substring Technologies: Okay, so abhamluk route configure karate.
+
+243
+00:32:38.530 --> 00:32:54.830
+Substring Technologies: config.jsonfig.app.json hai, or jsconfig.app.json hai, ye kisli hai. Tikkei? Yeh basically editor support ke liyehoti, ti ka.
+
+244
+00:32:54.830 --> 00:33:00.099
+Substring Technologies: Editor support kili. Only for editor support and tooling kili. Agar, is file ko delete bhikar doke.
+
+245
+00:33:00.100 --> 00:33:13.209
+Substring Technologies: Toh aapke project aur output pe koi fare nahi panda wal. Thi ka? Legin ho saktraki editor chijinasa majpay, ya editor aapko suggestion nadi, is lia kaire ki important, basically, don' file important toti.
+
+246
+00:33:13.420 --> 00:33:16.220
+Substring Technologies: Oh… me a quero.
+
+247
+00:33:20.740 --> 00:33:29.449
+Substring Technologies: Hmm. Toh ye see jyadar kyaga ki, if you want to do, like, if you want to agar aapko tooling or editor ka support chai, toh aapko indo no file ako maintain karna pada ya.
+
+248
+00:33:29.970 --> 00:33:49.730
+Substring Technologies: Even in pure JavaScript also, modern tooling still use TypeScript internally. Toh ye don't, finally, TypeScript internally use karta hai, like, asana ki aapka JavaScript project hai, toh internally, internally TypeScript use Hosakti. Aap Bali JavaScript use kar, but internally, TypeScript we use Hosakti hai. Kisle usogi aplo question po saktu, tohai seh we take tool hai kar saktah hai.
+
+249
+00:33:49.730 --> 00:34:00.909
+Substring Technologies: ES linting, like, type checker akarne ke liya, VS Code intelligence isko use kar saktah hai, path lilya saying autoimmports, insapche ke liya, ye use kar saktah hai, basically. Sound good?
+
+250
+00:34:00.910 --> 00:34:14.830
+Substring Technologies: Toh, mehka akarta ho yaar, this ko tsconfig rehear important, i ka. Ya file lam tsconfig seh maintain karengeko, abih kelei filal, tsconfig sein maintain karo, aur apne, iswali file ko bh tsconfig sehi maintain ko.
+
+251
+00:34:15.130 --> 00:34:22.230
+Substring Technologies: Just put this also, tsconfig.json. Abdego error ja chuga tsconfig and tsconfig.
+
+252
+00:34:22.560 --> 00:34:41.669
+Substring Technologies: internal tooling hot file. Internal tooling. Toh, even though JavaScript app use kara wafirbhi ts config seh rah akoge, toh jada better jo hamara option hoga, hamara jo, like, project editor use editor, jo tools use kara editor jo kudh hai, use other tools.
+
+253
+00:34:41.960 --> 00:34:46.809
+Substring Technologies: Help aapki kar paika. Aapko ki sa manlois file ko mein hatadu fir, koi bol saktana?
+
+254
+00:34:47.610 --> 00:35:06.610
+Substring Technologies: Toh, hatadho koi di kanne. Tsconfig.app.jsn ko ta deh, we… do we need this file? Toh, in JavaScript, ko is a rota nahi. This file exists only in TypeScript project created by V, toh chub TypeScript file, TypeScript ka project hoda, tabin files ke zerodhoti aap bhata doje koi fragne pante wala.
+
+255
+00:35:06.620 --> 00:35:08.800
+Substring Technologies: diti.
+
+256
+00:35:09.040 --> 00:35:18.180
+Substring Technologies: But if you want to remove kartuk JavaScript. TypeScript hoge toh automatically aapko mill lagi.
+
+257
+00:35:18.510 --> 00:35:19.660
+Substring Technologies: Ayes on me.
+
+258
+00:35:20.550 --> 00:35:25.730
+Substring Technologies: padi rasakti hai toh.
+
+259
+00:35:26.060 --> 00:35:32.380
+Substring Technologies: Kissly use hogi, like, So, why it appears sometimes Q as at the kay?
+
+260
+00:35:32.570 --> 00:35:52.260
+Substring Technologies: manually banar di to file aap padi rahigi, editor use karna chahi ka, tokare. Otherwise, lah, iska koi project development ya output pe koi fak nahiwalapiskosa muchke, chalo. Fir aapko ke sar hoti ki hai, ye aapke, like, editor ki help karnegahi hoti hai.
+
+261
+00:35:53.220 --> 00:36:09.180
+Substring Technologies: not use by read, not read by bundler, safe to read to unkohum read kar sakte hain. Abi clearer sabko.
+
+262
+00:36:13.580 --> 00:36:29.299
+Substring Technologies: To JSconfig, mana ne seh melat jsconfig namse koi matlamne hai, tsconfig aap banadu koi di kartne. Padi dehi file, zartok gehu uskelinda ni zeroto nahyu. A baab koge sar mal lohum, JavaScript use karne toh, kyah hum us ko JSConfix banay kya.
+
+263
+00:36:31.160 --> 00:36:39.700
+Substring Technologies: Kyumo hid.
+
+264
+00:36:39.820 --> 00:36:44.360
+Substring Technologies: To, yes, that will be the best practice, ki agar aapka mane tohisko hum.
+
+265
+00:36:44.760 --> 00:36:45.990
+Substring Technologies: Escoban,
+
+266
+00:36:46.740 --> 00:37:00.699
+Substring Technologies: JSconfig. So, you can do that, aap kaman hai, tohap awe hape, aurapne jSconfig.json file hai, just kyuki hamara jauseke ka project hai, toh aapisko JSconfig. Meh sari ji clear kar rah ho, samadh darabi bat mehi akar.
+
+267
+00:37:00.800 --> 00:37:05.140
+Substring Technologies: Aklein mein clear kar rahu, like, aklein clear kar rahu aapki.
+
+268
+00:37:06.100 --> 00:37:07.380
+Substring Technologies: Kito lak sausage.
+
+269
+00:37:07.650 --> 00:37:09.789
+Substring Technologies: AK client clear karahan.
+
+270
+00:37:11.130 --> 00:37:12.990
+Substring Technologies: Paka? Kwedi ka toni?
+
+271
+00:37:20.240 --> 00:37:32.260
+Substring Technologies: Toh aapka to, like aap use kar sak toh, jsconfig, tsconfig iska ko use nahi, but nande ko, agar aapko file rakne hai, toh aaph jsconfig si rak ko. Otherwise.
+
+272
+00:37:33.930 --> 00:37:38.190
+Substring Technologies: JavaScript code, like, JavaScript projector, to JSconfigs are code, TypeScript code projected, to…
+
+273
+00:37:38.290 --> 00:37:55.180
+Substring Technologies: or tsconfig.json.app ko aap hatasaktuk kadwali banni. If you want to remove, to mein harche japko bataano, then aapko ye donut jo linking hai is linking ko bhi hatana hi badega, tabi, like aapke options aapke nahi chalenge.
+
+274
+00:37:56.020 --> 00:38:11.010
+Substring Technologies: deprecated is stop functioning. So, just y laga do a Odd.
+
+275
+00:38:11.170 --> 00:38:16.159
+Substring Technologies: Abney compiler options, just put this option, it will actually work.
+
+276
+00:38:16.320 --> 00:38:32.949
+Substring Technologies: tohap chow jska 1 config raku chah hat JSconfignaark ko, but important hai, mein bata confusion, agar ap react or js use karut to ab jsconfig.json file raklo, aur agar react tsus karut, tohap tsconfig.json, tsconfig.app.json do no raklo.
+
+277
+00:38:33.050 --> 00:38:37.690
+Substring Technologies: Thika? Agar aap shadshi nihuska rhsconfig rakhlo koi dikatwali bat nahi.
+
+278
+00:38:38.650 --> 00:38:52.380
+Substring Technologies: aage mohit.
+
+279
+00:38:52.890 --> 00:38:57.760
+Substring Technologies: Tohmari pass components ajek in components come directly apne preyadkan dari hapi use karne vale.
+
+280
+00:38:58.370 --> 00:39:04.510
+Substring Technologies: Now, abaham kia garde, like… homepage chay yoga, apne?
+
+281
+00:39:04.630 --> 00:39:12.400
+Substring Technologies: Like, pages. Toh pages bananke mein wahi fundamental chich follow karungha.
+
+282
+00:39:12.400 --> 00:39:16.009
+Substring Technologies: Kansa? Kansa fundamental cheese follow karonga?
+
+283
+00:39:16.010 --> 00:39:32.639
+Substring Technologies: Why? Like, hum, srcli karke, ek folder benalenge, pages ka, components already hai, and agar redax hogara, use karnege to redex namse, ek banaling, and hum kya kaniapne main kender, just yaha pe. Sapse lekuch pages benalu, jaise, for example, hamaripas
+
+284
+00:39:33.390 --> 00:39:46.229
+Substring Technologies: Pages meeka, ek product… products.jsx hoga, jahapi saare products liking. Ek page hoga maara, like, home.jsx, acha, page hai toh pageo, page nam do.
+
+285
+00:39:46.470 --> 00:39:51.120
+Substring Technologies: like… Products?
+
+286
+00:39:52.400 --> 00:39:57.510
+Substring Technologies: page.jsx t, or, like, click about page raklo, about…
+
+287
+00:39:58.480 --> 00:40:07.730
+Substring Technologies: Pedro, J6, or a kapaklo, like… Login.jsx, login page.jsx. Login.
+
+288
+00:40:09.250 --> 00:40:11.979
+Substring Technologies: base.j6, like, sign up.
+
+289
+00:40:13.880 --> 00:40:14.779
+Substring Technologies: Sign up.
+
+290
+00:40:15.000 --> 00:40:25.840
+Substring Technologies: Paid or DSX, take a single product to the Kani Clay, like… Product… dot product page.jsx, product…
+
+291
+00:40:25.850 --> 00:40:35.479
+Substring Technologies: page.tsx. Toh assay karke saare products banana sektumojelagra, ekit karke mega akar daw ajate ar react function components, fatafat legal.
+
+292
+00:40:35.480 --> 00:40:49.110
+Substring Technologies: about pageb challenge react functional component, just foot up, fat up. Login page be react functional component export, product page period react functional component export. Products page be react functional component export.
+
+293
+00:40:49.140 --> 00:40:52.179
+Substring Technologies: Sign-up page, create functional component, export. Perfect.
+
+294
+00:40:52.330 --> 00:40:53.670
+Substring Technologies: Kyokaito. Done?
+
+295
+00:40:53.750 --> 00:41:12.410
+Substring Technologies: A bam kaya karenge, like, apne main.js6 peche leuriah routing karenge. Routing mujilagra sabko ata hogo, huh? Routing? Routing mein sabse pahala jo kam karne hai, that will be, actually, browser router. Hame sabse pale, browser router chai, aur import hujaya automatically, then ha me chei routes…
+
+296
+00:41:12.610 --> 00:41:30.950
+Substring Technologies: path denge, like, slash, or slash payu element hum denge, not elevation, element.
+
+297
+00:41:31.360 --> 00:41:36.330
+Substring Technologies: Element. Element taka, elementi hota hai,
+
+298
+00:41:38.700 --> 00:41:40.249
+Substring Technologies: Why? It's not suggesting.
+
+299
+00:41:40.370 --> 00:41:45.479
+Substring Technologies: I think element youth. Tom Element… L.A. Mint.
+
+300
+00:41:46.450 --> 00:41:51.260
+Substring Technologies: Or element mein maiha pada keys karonga. Ek banan lunga pages mein app layout.
+
+301
+00:41:51.750 --> 00:41:52.590
+Substring Technologies: app?
+
+302
+00:41:52.770 --> 00:41:58.039
+Substring Technologies: layout, or yaha me kya karnunga, app layout.jsx tobanao.
+
+303
+00:41:59.260 --> 00:42:10.730
+Substring Technologies: dot… JSX, or in this file, React function to export. Actually, Huh? Little.
+
+304
+00:42:11.410 --> 00:42:24.899
+Substring Technologies: Toh, jaise homepage hoga, aapka app layout execute ho jaga. Toh, let's see. Refresh kar do. Why? Ekbar aap. It will actually sing with undefined array.
+
+305
+00:42:25.350 --> 00:42:37.769
+Substring Technologies: Acha, route meleagra import nahi wah. Yes, tohap ne ko, route galas jeges import kaliya. Do route arako browser router, routes, and yaha sehi wo route araw, isilh wo suggest nahi karath.
+
+306
+00:42:37.940 --> 00:42:48.610
+Substring Technologies: To make sure, ki aap seijay kase export query equap layout. Perfect. So this is actually… hum…
+
+307
+00:42:48.780 --> 00:42:49.940
+Substring Technologies: A calm guru?
+
+308
+00:42:50.470 --> 00:42:53.060
+Substring Technologies: You happy to index, like, index?
+
+309
+00:42:53.260 --> 00:43:02.490
+Substring Technologies: is app layout kendar jo indexed root hoga, route hoga, usme amikhangi aapna homepage. Na? Home page. Toh home.
+
+310
+00:43:02.600 --> 00:43:17.299
+Substring Technologies: page. This is a home page. Aap layout mein dike, ki beh ya, aap di out mein, hum, sabse pallihan napbar lagaine, uske baadumar outlet hoga. Hur outlet pehi aaph
+
+311
+00:43:17.700 --> 00:43:29.819
+Substring Technologies: So, let's go to the component, aurapne component hai photo, jskanam dahkne hai, feature. Yeah, like,
+
+312
+00:43:30.770 --> 00:43:50.689
+Substring Technologies: Components, like, normal user kili, components hunki, ya aap taikli bhanna start kasakt, components rightly ko ye fold of knowledge iskana jo naibar.jsx. Ya component oga aur ye na bar. Toham ganga jumara apple a utna, apnaple out ira, is apple auth mein outlet se pahele, humid us kangil, like, nahapar. Ya sub mein padh chokare fat revise karate no.
+
+313
+00:43:51.030 --> 00:43:55.489
+Substring Technologies: bar, then home hai.
+
+314
+00:43:55.740 --> 00:43:58.400
+Substring Technologies: Perfect. Tohi hamar ba snapbar and homayin.
+
+315
+00:43:58.740 --> 00:44:10.580
+Substring Technologies: apne main.jssex ke ander at yaha pe, am apne baki routs bhde sattne, ki maara ho mugea, abame, like, abaoud karnahat, am, like…
+
+316
+00:44:11.100 --> 00:44:15.780
+Substring Technologies: but… B… slash about Kardu.
+
+317
+00:44:15.960 --> 00:44:20.420
+Substring Technologies: About an element johoga, hoga.
+
+318
+00:44:21.500 --> 00:44:24.109
+Substring Technologies: Element hoga woga, about page.
+
+319
+00:44:24.630 --> 00:44:25.410
+Substring Technologies: Come out.
+
+320
+00:44:25.470 --> 00:44:38.040
+Substring Technologies: Beach. Perfect. I say karke hamare saare, like ajayenge, product ska jayga, and, like, hamari pass, product, product ID ajay gaik, and hamare pass, like,
+
+321
+00:44:38.040 --> 00:44:46.359
+Substring Technologies: elemental dubas ya, product ke li mas product page hai pass, product pages hai, or iski hamar pass product page hai.
+
+322
+00:44:46.930 --> 00:44:48.530
+Substring Technologies: product page.
+
+323
+00:44:48.820 --> 00:44:53.259
+Substring Technologies: Baki login kelemari passage route.
+
+324
+00:44:54.070 --> 00:44:55.010
+Substring Technologies: Sign up.
+
+325
+00:44:55.210 --> 00:45:00.129
+Substring Technologies: Import tuhan yung automot link.
+
+326
+00:45:01.380 --> 00:45:10.070
+Substring Technologies: Sign up page, same use karang hai. Like, login, right? Login page, and logina pe, right? Login page ka.
+
+327
+00:45:10.190 --> 00:45:15.699
+Substring Technologies: So, everything is done. Agar mein login page, slash login.
+
+328
+00:45:17.200 --> 00:45:17.595
+Substring Technologies: Top?
+
+329
+00:45:18.220 --> 00:45:20.039
+Substring Technologies: login page adage ID.
+
+330
+00:45:20.190 --> 00:45:39.269
+Substring Technologies: Apa mein nebar banana tok fatafan nibbar manga. Nebar me aying gai me ape, aur apne, nebar component kenda, joking regga sap keeli. Aur yaha peme, chai nebar, sum mega kartow, AI ka simple use kelathe, abisko select kaliya fir control ai dabai yega. Aur yeh hai mara whos bint sai, open o jaga, isse boh saute ya, create.
+
+331
+00:45:39.430 --> 00:45:41.280
+Substring Technologies: are simple.
+
+332
+00:45:42.090 --> 00:45:44.559
+Substring Technologies: Beautiful. Nab.
+
+333
+00:45:44.960 --> 00:45:53.130
+Substring Technologies: bar oozing Tailwind CSS, okay? With options like… brand.
+
+334
+00:45:53.690 --> 00:45:58.830
+Substring Technologies: Egg brand name change, joking gya hai Sivaji store. Sivaji store?
+
+335
+00:45:59.370 --> 00:46:14.680
+Substring Technologies: And menus… and login button, and sign up button. Sign up button. Dekne kyabanathai.
+
+336
+00:46:14.820 --> 00:46:22.489
+Substring Technologies: So, agaristin banadhy auch, bus mcil agar banadega, kyo ki bohos impulsa minisko di haisne digko kuch bana dia, napesko alt.
+
+337
+00:46:22.810 --> 00:46:32.040
+Substring Technologies: Soh diktne.
+
+338
+00:46:32.240 --> 00:46:49.639
+Substring Technologies: extraordinary kush kardy awe, ke, nahap taglia, aur ek BG white lia, shadow dia hal kata, ek container lia, jisme flex lagaya, justify center meleh beach me aaga.
+
+339
+00:46:49.640 --> 00:47:02.599
+Substring Technologies: For the menus, jiskender home ragdia, product rak lia, about ragdia login kilagya, sign up ragdi. Samarge? So, abhapi hapi di hoge, yeh humara kucha nepa. Simple sa ba na.
+
+340
+00:47:02.870 --> 00:47:09.819
+Substring Technologies: expect kar sak mein, usname. ChatGPT agarapyos karh simple, or bh, achabana ya.
+
+341
+00:47:10.230 --> 00:47:13.150
+Substring Technologies: nahi kara rah.
+
+342
+00:47:17.810 --> 00:47:18.530
+Substring Technologies: Tika?
+
+343
+00:47:18.790 --> 00:47:24.820
+Substring Technologies: hablo.
+
+344
+00:47:24.970 --> 00:47:37.370
+Substring Technologies: Or, like, Sivaji isko capital karte di kay, or ye jo button ina, ye button. Isko aka karte, like, normal button, hum aapna, button use karte kaha se jo araw. But…
+
+345
+00:47:38.410 --> 00:47:45.089
+Substring Technologies: Components buttons, like, normal jumari advice, evalu butter.
+
+346
+00:47:45.380 --> 00:47:46.310
+Substring Technologies: Obtica.
+
+347
+00:47:46.370 --> 00:48:01.279
+Substring Technologies: Same hum, sign up button clipte, ki hammara jo, like button, or button, johoga, that is a sign up button. Baki variant, you can adjust the variant.
+
+348
+00:48:01.280 --> 00:48:10.670
+Substring Technologies: variant, variant, or variant may outline, if you want to use tohapia, outline use case to, outline aiki, line auth type use casea.
+
+349
+00:48:11.620 --> 00:48:17.489
+Substring Technologies: Okay, and eka murkar saktu, Indonuku ap ek div kenda pack kar saktu.
+
+350
+00:48:18.140 --> 00:48:28.030
+Substring Technologies: pack kasak toh, so that in dismay, flex some use case, or gap halka maintain kasak hai. Apnei sap se ho.
+
+351
+00:48:28.300 --> 00:48:29.949
+Substring Technologies: Hori hamare bakilling.
+
+352
+00:48:30.280 --> 00:48:43.719
+Substring Technologies: Perfect, tohi maraig napbar bant chuga. Perfect. Yaha pe home use case products about isabi use kar secne. Linking thora sai karlete, like, linking mein humate. Or main aapko bada tanaki aap link keh lia hum use karnege nav link.
+
+353
+00:48:43.800 --> 00:48:52.750
+Substring Technologies: nav link, react router ka. Toh aap simply, ya aapay aap user nav, Link?
+
+354
+00:48:52.890 --> 00:48:56.229
+Substring Technologies: That is coming from a great router, and this is also a…
+
+355
+00:48:56.700 --> 00:49:01.660
+Substring Technologies: nav link, or HRFK jagami, you're gonna get 2. Ka?
+
+356
+00:49:03.530 --> 00:49:05.430
+Substring Technologies: 2, that is, slash.
+
+357
+00:49:05.670 --> 00:49:12.170
+Substring Technologies: Perfect. Same product scale ABM, like aap to directly ha me pada hai, yahabi, and kahai.
+
+358
+00:49:12.440 --> 00:49:15.030
+Substring Technologies: Yahabi? Yahabi, I come?
+
+359
+00:49:16.330 --> 00:49:24.030
+Substring Technologies: kisme.
+
+360
+00:49:24.910 --> 00:49:28.930
+Substring Technologies: to Kendar. Thinka? Same about me bhihim ka karenge.
+
+361
+00:49:30.110 --> 00:49:31.789
+Substring Technologies: Power outcome change karne hai?
+
+362
+00:49:32.200 --> 00:49:34.439
+Substring Technologies: to say about Medali.
+
+363
+00:49:34.570 --> 00:49:43.359
+Substring Technologies: Bus mujay lagrat hike. Chen jura, products, and about. About.
+
+364
+00:49:43.490 --> 00:49:44.270
+Substring Technologies: Perfect.
+
+365
+00:49:45.140 --> 00:49:50.950
+Substring Technologies: Done? Interesting. Login to sign up pay me, same kar saktun ya hai. Login signup mega kurunga.
+
+366
+00:49:51.200 --> 00:49:57.290
+Substring Technologies: naveling k andar.
+
+367
+00:49:57.640 --> 00:49:59.790
+Substring Technologies: NavLink calendar.
+
+368
+00:49:59.910 --> 00:50:08.959
+Substring Technologies: Aur naive link mein humdalete hain tu, aur kar det login. Toh jease ape haz button to click karoge, it will go to the login page.
+
+369
+00:50:09.060 --> 00:50:20.480
+Substring Technologies: About login. So, abhi login, about products, login, and sign up KLV ispatan ko aapki akorge, aaphi aapi, like.
+
+370
+00:50:21.430 --> 00:50:24.920
+Substring Technologies: navLink?
+
+371
+00:50:25.780 --> 00:50:42.940
+Substring Technologies: Development aaphot asahan ho ke ain, auram tupeklik kerenge, lik in development tabi ke liya asana kapko chijay, aharahi hai, agar nahi aini tu hui sara kam nahi kar pa agapuhi. Perfect. Sapi jazakhi.
+
+372
+00:50:43.040 --> 00:50:57.619
+Substring Technologies: Perfect. Apa me se bol saktne, ek blank, like, thuda thora saha, home page bana sakne, bamasakne is seh, like, agar me aapi apne homepage bhia taong, mein simply pay, yahatake, like mein boh sakh control ai, boh sakh create simple
+
+373
+00:50:58.950 --> 00:51:02.249
+Substring Technologies: home page for Sivaji.
+
+374
+00:51:02.880 --> 00:51:03.840
+Substring Technologies: store.
+
+375
+00:51:04.420 --> 00:51:18.870
+Substring Technologies: Okay? Use, like… create few important sections. Feature, okay, so yahap image here, battery.
+
+376
+00:51:22.880 --> 00:51:38.650
+Substring Technologies: Tikkei? So, kahapide, first sem kayenge, Ctrl-I. Create simple, yeah, create kayenge. Create beautiful home page for… Siva… G-Store…
+
+377
+00:51:39.530 --> 00:51:52.770
+Substring Technologies: Sivaji store, e-commerce website… Having important… having important… Or sections, like…
+
+378
+00:51:53.120 --> 00:51:57.230
+Substring Technologies: Hero section, or con ko sa? Features section.
+
+379
+00:51:57.340 --> 00:52:03.410
+Substring Technologies: CTA section, and other important one.
+
+380
+00:52:04.170 --> 00:52:16.089
+Substring Technologies: So, isne kuch bana ya bahi, kuch to bhiya banaya gai. Toh isneh thuda components ko divide kar di hai ka hai. So, thick hai, thick.
+
+381
+00:52:17.140 --> 00:52:22.279
+Substring Technologies: Ctrl-A, lag aake, chipka henge, or…
+
+382
+00:52:22.470 --> 00:52:31.379
+Substring Technologies: main component tha usko allag raka hai.
+
+383
+00:52:31.380 --> 00:52:52.310
+Substring Technologies: Baki hero section leil yk, hero section mek hero section bahi, or, like, subcomponents, then ek feature section lilya, feature section, tikke hai. Fir ek CD section lilya. Jojo main balkam keysne hai, office ek other important sections lilya.
+
+384
+00:52:52.470 --> 00:52:55.130
+Substring Technologies: So, Ikbaram dukkahiti kahi bracket hoi.
+
+385
+00:52:55.880 --> 00:53:04.060
+Substring Technologies: I think yehi alabrekita grat kar diasne. Perfect. I don't think mujah passan daayga ba ti gayar.
+
+386
+00:53:04.380 --> 00:53:05.180
+Substring Technologies: Kiu.
+
+387
+00:53:06.770 --> 00:53:07.670
+Substring Technologies: Tiger?
+
+388
+00:53:07.960 --> 00:53:21.189
+Substring Technologies: So, yesneh, but excuse me ahar bat kyo ke chat GPT abhita kaapse best AI. Tung, kyakai toh, mhit. So, aap kya ka sek toh, just go to the chat GPT, aap egbar.
+
+389
+00:53:21.950 --> 00:53:33.209
+Substring Technologies: use karoo katakot aaph chat GBT open guru, aur meiga karunga, just copy this, and… I say bodh lunga, improve the…
+
+390
+00:53:33.340 --> 00:53:34.380
+Substring Technologies: Bitch.
+
+391
+00:53:34.840 --> 00:53:39.190
+Substring Technologies: Make it futuristic? Futuristic?
+
+392
+00:53:39.730 --> 00:53:45.310
+Substring Technologies: And api… link? Aurap na pura code abisko di ho.
+
+393
+00:53:49.480 --> 00:53:52.959
+Substring Technologies: Apcod ko, use karle na? Abih keeli filt.
+
+394
+00:53:53.090 --> 00:54:15.760
+Substring Technologies: aapkoge sir kya, kya, kya, actual, real worlds mein, asi coding hoti nahi. Actual real world mein ase coding nahi huti hai. Mahapi aapko ek component banana kiwai tehi jay. Ki asea component hai, asa component. Aap kasi bana kudse banana AI se bana ki helpliseak toh, ise nahi gai kehni hari sak toh, ya ai ki bilkul hap lei sakho.
+
+395
+00:54:15.760 --> 00:54:16.820
+Substring Technologies: So what's give me a girl?
+
+396
+00:54:16.820 --> 00:54:17.590
+Substring Technologies: Muit.
+
+397
+00:54:17.640 --> 00:54:18.500
+Substring Technologies: But…
+
+398
+00:54:18.570 --> 00:54:28.840
+Substring Technologies: Asa bilkul binahi ki, like aapko hamise AI sehi, coding karne, aapko kut se bhi coding ani jay, isleini aapko reactsikhai, firamaye, improved code ko lunga aura y habe paste kar lunga.
+
+399
+00:54:28.970 --> 00:54:34.880
+Substring Technologies: ye deko.
+
+400
+00:54:35.270 --> 00:54:36.110
+Substring Technologies: Vega?
+
+401
+00:54:36.480 --> 00:54:37.410
+Substring Technologies: There you go?
+
+402
+00:54:37.540 --> 00:54:40.140
+Substring Technologies: So, this is a clear difference between
+
+403
+00:54:40.340 --> 00:54:50.389
+Substring Technologies: Like, AI tools. Kaon sa AI toolkar use karap e important tota hai. Mohit. Samanhya, toh is meh kuch jadaani is mere dihi ek sectional AI, basically.
+
+404
+00:54:50.760 --> 00:55:05.900
+Substring Technologies: Center pay ek heading hai, sab heading hai, do action button hai, niche. Ikh heading hai, ek subheading hai, thine cards hai. Next, mari past serious section mein ek card hai, heading e, like, subheading hai, ek action button hai. First ehen card sein, that's it.
+
+405
+00:55:09.490 --> 00:55:17.499
+Substring Technologies: Figma will give template, we have to code it. Yeah. Aapko, basically, prototype ya design gore to mill jayki. Knee ka madla bahi mira.
+
+406
+00:55:17.510 --> 00:55:32.910
+Substring Technologies: that depends, but requirement ala galaga ho sakti. Isni kise code kya ibde sakte habe. Like, isne kiabana, isne ku zada naik ya laik te ko. Simply, eige code ku jaaki aap samosaktu. Toh, here is amara hero section nahi, tohi hero section.
+
+407
+00:55:33.200 --> 00:55:36.160
+Substring Technologies: the 400.
+
+408
+00:55:36.430 --> 00:55:50.459
+Substring Technologies: VH nahi uski nahini VH uski hai, then isneh flex column lay kar di hai, mata content hai o topsei, bottom ko, reassign hose, and item center kar dia, justify center kar dia, and this is your glow.
+
+409
+00:55:50.460 --> 00:55:57.720
+Substring Technologies: Fir ye, like, welcome to this hai, kyo que do color kay na, here they go.
+
+410
+00:55:57.740 --> 00:55:58.570
+Substring Technologies: Yeok.
+
+411
+00:55:58.670 --> 00:56:10.920
+Substring Technologies: lagra hai.
+
+412
+00:56:11.230 --> 00:56:20.610
+Substring Technologies: Simple. Samarke, tohistar se aap kaam kar sak toh, and aapke assignment digi aap insare pages ka ek evalaye gaugar peh.
+
+413
+00:56:20.610 --> 00:56:34.380
+Substring Technologies: Like, products page ka, apega, about page ka, login page ka, banaega, sign up page ka, halaki yeh task mein pala se karate cho ka. Isa mein har dynamic cheese thras dekilah, RTK kahapi usho ka.
+
+414
+00:56:34.380 --> 00:56:43.949
+Substring Technologies: is mein aapko kush, like.
+
+415
+00:56:43.950 --> 00:56:57.659
+Substring Technologies: Hi Phi nahi karna, simple chija banana, jo aap dek thee hubas. Yes, login page mein, email ID password kaik form hoga, sign up page mein, email ID password, new password, contact number, yesab chijay Hungi, products page mein boho sare products.
+
+416
+00:56:57.720 --> 00:57:09.240
+Substring Technologies: product pay click karke us ki information decksa ke, add to card kar sa ki, yes, basic operations kar se ki.
+
+417
+00:57:09.320 --> 00:57:13.170
+Substring Technologies: How many of you can try?
+
+418
+00:57:15.110 --> 00:57:16.060
+Substring Technologies: Pull up.
+
+419
+00:57:20.070 --> 00:57:22.820
+Substring Technologies: Kitok try karoge isa segment ko complete karne negligence.
+
+420
+00:57:23.430 --> 00:57:31.530
+Substring Technologies: Meh, kahunga ki aap kudse code karu, dike? Meh class mein AI is live sekeleta ko, ki humluk time waste to spend hikar na je haplo code kari ka, theek hai?
+
+421
+00:57:31.840 --> 00:57:40.100
+Substring Technologies: framework, un sub libraries ko use karega, theek hai? Mei aapko se ha muy aisi badne. Ap baat karte.
+
+422
+00:57:40.470 --> 00:57:42.940
+Substring Technologies: Like, example, some zoo.
+
+423
+00:57:43.290 --> 00:57:48.770
+Substring Technologies: Example some, hum kya ab karne jarang kya karnai ha me.
+
+424
+00:57:52.030 --> 00:58:00.460
+Substring Technologies: Ek requirement leitin, dynamic requirement. To abad karte product space ki.
+
+425
+00:58:01.400 --> 00:58:15.909
+Substring Technologies: Is product page pe, dihanaga. Sare products, ki jaise hum home se products pay a hai, sare product dikja. Di kha no ka. So, abdi ko, like, hame is page pe jaise ate, hame, yaha peh sare products dikhani hoga.
+
+426
+00:58:16.060 --> 00:58:20.050
+Substring Technologies: Products technique.
+
+427
+00:58:20.840 --> 00:58:33.149
+Substring Technologies: ye products dynamically API silodonge, kita loko bata hai. Yad ko backend or frontend meinap ko sam jahata preschool lecture keh. Toh ye product sungi ho server searong, hamari backend searong. Inki API call kerke hai data ko nikal naoga.
+
+428
+00:58:33.340 --> 00:58:36.409
+Substring Technologies: To JSF, for example, hamare pass iko…
+
+429
+00:58:36.750 --> 00:58:39.879
+Substring Technologies: e-commerce ki fake API is hot. E-commerce.
+
+430
+00:58:40.550 --> 00:59:00.199
+Substring Technologies: Fake API. Toh, products ko nikaani kili backend wala aapko de ga, jaise ye plaji fake store API. agar view doc me jaw dhame aapi product ki API mill legi. So, aapko bas samajinay ki ha product kahan searawa, so iri products, yari product ki. Toh jase API call karoga aapk, aapko boho sai products mill degen.
+
+431
+00:59:00.670 --> 00:59:04.010
+Substring Technologies: You will find all the products here.
+
+432
+00:59:04.710 --> 00:59:10.630
+Substring Technologies: hari code khate ko ID hai.
+
+433
+00:59:10.630 --> 00:59:29.689
+Substring Technologies: process zoom kalu, ID ha, title is slug hai, price hubski, description hubska, category hubski, images sehski, theek hai kap create hua kab detwa, tuya sai informa sahi product ke paase. Asai backend walajo developer woka wa aapko API didega. Tohi si API se ha me data nikalke or apne products page pe dikhan hai.
+
+434
+00:59:30.250 --> 00:59:32.420
+Substring Technologies: Aya.
+
+435
+00:59:33.140 --> 00:59:51.629
+Substring Technologies: karne, ekal NPM install, npm install exios.
+
+436
+00:59:52.910 --> 00:59:57.810
+Substring Technologies: Then what do we have to do? Aap koi hape kaya karnak service penal ni hai.
+
+437
+00:59:58.610 --> 01:00:03.089
+Substring Technologies: Services. Service calendar, you just have to create which service?
+
+438
+01:00:03.550 --> 01:00:09.139
+Substring Technologies: app as a product service, ya product API service, manasak, API.js.
+
+439
+01:00:10.650 --> 01:00:15.420
+Substring Technologies: akh Export.
+
+440
+01:00:16.820 --> 01:00:23.280
+Substring Technologies: const, or get products. Like, doge kinili doge. Get products.
+
+441
+01:00:23.460 --> 01:00:33.759
+Substring Technologies: or yaha pay, product koget karne wala code ligtoge. Ligtoge kini ligtoge. Bolu. Auraise karke even sare liggo ya. Get…
+
+442
+01:00:33.850 --> 01:00:50.919
+Substring Technologies: create, update, delete, everything. Jobhi aapko zarod hoge, abligtoge. Aur fear usko, ap use kar logehe, like export already kar dia, apne home page mein, aya products page kandar augiur, yaha pe kalog. Ap hame kya karna hai, hame, jab page loadout usi semi product sari di khanay, toh aapka karoge, aapi hai use karoge, use
+
+443
+01:00:50.920 --> 01:00:57.769
+Substring Technologies: Effect. Use karo hai. Or use effect mein, like, dochile past karn nyoti ektumara callback.
+
+444
+01:00:58.120 --> 01:01:09.720
+Substring Technologies: Or, kame dependency array. Aga dependency array blank, toh aapko, initially, like, chap component Mount Huga tabi prototy mill jag. Toh yaha pe aap logic logo, load the products.
+
+445
+01:01:09.910 --> 01:01:18.420
+Substring Technologies: Like, aurase product load, tohapik variable lei nahy ape. Like… variable SL na const.
+
+446
+01:01:18.670 --> 01:01:25.639
+Substring Technologies: Products… set… Products, aurihapi. Apapna, use state use kar na?
+
+447
+01:01:26.020 --> 01:01:31.769
+Substring Technologies: Offer is product ko use karke habatika de na.
+
+448
+01:01:32.100 --> 01:01:37.320
+Substring Technologies: How many of you can do that?
+
+449
+01:01:40.620 --> 01:01:41.560
+Substring Technologies: Bodo.
+
+450
+01:01:48.010 --> 01:01:48.970
+Substring Technologies: Bolohe.
+
+451
+01:01:56.930 --> 01:02:08.280
+Substring Technologies: Prisa again will try. Aap try kari ka, ye ex simple tari ka hai, manual tari ka hai. Thika? Job main batay manual tari ka hai. Isme kyahu sakhta hai, is mein bhot saara kaam.
+
+452
+01:02:08.380 --> 01:02:21.630
+Substring Technologies: aapko kutse karna podega, like de ko. Apko sabse pale, use effect ke under, load kutse karna podega. Toh yaha pe repeated, jitini bar, like, repeated, repeated.
+
+453
+01:02:21.740 --> 01:02:24.550
+Substring Technologies: Boilerplate code dikanapatika. Boiler?
+
+454
+01:02:25.000 --> 01:02:26.790
+Substring Technologies: Late Kuldikna Pradesh.
+
+455
+01:02:27.090 --> 01:02:31.820
+Substring Technologies: Caching aapko manual karna padega. Caching melos doh, aapkoi dhikna padega ki agar.
+
+456
+01:02:32.370 --> 01:02:40.469
+Substring Technologies: Toh casing aapko manual karna padega, o meno ke chakkar mein bak so gaar aasakti.
+
+457
+01:02:40.770 --> 01:02:44.010
+Substring Technologies: koch.
+
+458
+01:02:44.260 --> 01:02:59.480
+Substring Technologies: So, karnegali asabi low karte hain. Thika karnegali asabihokarte, legitin bata kya hot hai. Japa aap react toolkit use karoona. So, React Toolkit mein ek option hota react toolkit query ka.
+
+459
+01:03:00.540 --> 01:03:12.920
+Substring Technologies: This query actually solves a lot of problems. Pata donkea. Jaise, ye auto data fetch kerli, yapne aapseh. Apne aapse. Ja say speech pe a hoge data fetch ochaya. Automatically. Prisha.
+
+460
+01:03:12.920 --> 01:03:26.290
+Substring Technologies: kareka.
+
+461
+01:03:26.700 --> 01:03:31.630
+Substring Technologies: ye actually store me data ko cache kar regga.
+
+462
+01:03:31.850 --> 01:03:46.390
+Substring Technologies: store pore application kaik store rota na global store. Toh hai data kaysto jaga barbar space pe ko yayga toh data, par bah saur ko call nahi jayki. Thike ha? Aur dusichi loading or error ke state bidega aapko. Aapko kudh se, manual
+
+463
+01:03:46.670 --> 01:03:52.130
+Substring Technologies: cup data load ur hai kon seh raha, ye sap karne kez daruto. It will provide loading an error state.
+
+464
+01:03:52.690 --> 01:03:55.860
+Substring Technologies: Error states. Have we made the Khan logic iska magic.
+
+465
+01:03:56.110 --> 01:03:59.799
+Substring Technologies: Automatic refitching BA. Automatic refetching.
+
+466
+01:04:00.620 --> 01:04:05.230
+Substring Technologies: Re-fetching. Could say automatic, aapko kushni kan automatic refetch kal leg ha.
+
+467
+01:04:05.630 --> 01:04:17.670
+Substring Technologies: Is mein aapko, like, kuch bhi nahi likna, even zero reducer, reducer goer aapko nahi bhane kutse banjayenge, reducers actions kuch nihkna. Zero reducers actions to write.
+
+468
+01:04:17.870 --> 01:04:26.189
+Substring Technologies: Toh agar aapne project ke under RTK use kar hai ho, toher data ko fetch karni kilibi, data query kastemal karo.
+
+469
+01:04:26.770 --> 01:04:29.069
+Substring Technologies: I assume, most of the time.
+
+470
+01:04:29.290 --> 01:04:32.390
+Substring Technologies: Manuel.
+
+471
+01:04:32.570 --> 01:04:44.509
+Substring Technologies: Most of the time, if you want caching, agar, aapko caching chai ye, kisi page ko barbar ko load kar hai. Toh, in that case, aapko kya kar rah chi, RTK query ka istemal karna chahi.
+
+472
+01:04:46.560 --> 01:05:01.989
+Substring Technologies: Like in caching, loading, error, automatic refetching, ye sabah handlekar legah. Abab koisar agar maisko nahi us karne go to kaakam nahi yoga, build ku loka. But aapko kudse karna padaika exhaust teri kauskar ke.
+
+473
+01:05:02.270 --> 01:05:17.119
+Substring Technologies: exe, check karo ke ga data nahi hai tuham fech karne hai toh, nafech karne, he sa khutse karna praiga. Toh abham react toolkit use karne jari, yech is dikhanik lei. RTK query us karne jaune each dharneklein. Kare?
+
+474
+01:05:17.360 --> 01:05:20.240
+Substring Technologies: Aka? So, let's do that.
+
+475
+01:05:20.540 --> 01:05:31.000
+Substring Technologies: So, API banani klei, like, hum, apne, product API kendara yangi, isa batading hai.
+
+476
+01:05:31.210 --> 01:05:39.840
+Substring Technologies: Ik function hai, This kana meh, create API.
+
+477
+01:05:40.020 --> 01:05:45.110
+Substring Technologies: create API function, suggest nika, right?
+
+478
+01:05:45.370 --> 01:05:47.810
+Substring Technologies: Oh, let's, let's do that. Create.
+
+479
+01:05:48.260 --> 01:05:52.340
+Substring Technologies: A… P.I. Let's see.
+
+480
+01:05:55.790 --> 01:05:58.840
+Substring Technologies: E biker.
+
+481
+01:06:00.570 --> 01:06:15.560
+Substring Technologies: Let's come here, and yaha pay aapka karo, ye toh react query RTK query, just use this mujilagara install nahi karna karta hai, automatically install hojaati hai, yes.
+
+482
+01:06:15.560 --> 01:06:21.610
+Substring Technologies: karnathy.
+
+483
+01:06:22.070 --> 01:06:31.369
+Substring Technologies: To import automatic, nahi hora hai, toh dikta hai, ye actually create EP, yawa function us karne wala hai. Let's see. Isi ko copy gallo, agar.
+
+484
+01:06:33.670 --> 01:06:43.160
+Substring Technologies: Exactly. Tikkei? Or egg aur haemaripas, like, base eval kili, fetch base query.
+
+485
+01:06:43.600 --> 01:07:01.280
+Substring Technologies: API bananik lih. Toh iske pass, like, product API ye, to product mein get biosakta hai get karnek lia, single product get karnik lia, malab saareh API products related kamkar.
+
+486
+01:07:01.310 --> 01:07:12.720
+Substring Technologies: export const ik variable nangga, jiskanam denun ka product API.
+
+487
+01:07:13.040 --> 01:07:32.389
+Substring Technologies: So that time is ko bahar bhus kasengea, reducer agar mein configure karna pada ya mein store kendre. Iskut hike? Offer, isko taram minimize karate hain, halaki mojo bata rah bat firubhi meisko, apne hai, minimize kar dunga AI ko, tuti hum kudselekna jaanisko. Fir me is kar mung ayap create API. function call karunge, or is function kandar mujay ek object pass karne hai.
+
+488
+01:07:33.160 --> 01:07:34.860
+Substring Technologies: Same object pass karne hai.
+
+489
+01:07:35.600 --> 01:07:40.900
+Substring Technologies: slice banate hai.
+
+490
+01:07:41.220 --> 01:07:43.649
+Substring Technologies: Yada? Slice. Prabhat.
+
+491
+01:07:44.030 --> 01:07:48.899
+Substring Technologies: Create slice function kar.
+
+492
+01:07:49.020 --> 01:07:52.930
+Substring Technologies: Yaha pe API banana create API function use kari.
+
+493
+01:07:53.260 --> 01:07:56.670
+Substring Technologies: hum e ka?
+
+494
+01:07:57.300 --> 01:08:10.190
+Substring Technologies: It's like, reducer is path ka use karega. Chiike? Tohan path like product API.
+
+495
+01:08:10.900 --> 01:08:14.599
+Substring Technologies: Product API. Okay? Reducer path.
+
+496
+01:08:16.420 --> 01:08:25.550
+Substring Technologies: Okay, okay, okay, okay, tikkei. Aurucer path ka matla bagar aapko ni saun meara to me aapko, bataean reducer path ka ke hai.
+
+497
+01:08:25.990 --> 01:08:31.460
+Substring Technologies: RTK query stores data in Redux. Tohape ye juk API ya banario.
+
+498
+01:08:31.670 --> 01:08:50.290
+Substring Technologies: chap data fetch hoga, mga se, toh aapke redux, like, redux mehi store oga. Redux ki store meh store hoga. Toh ye jo a apne naam dia hai reducer path, this will act as a key name in the reducer store. Matha yahi jo value hamari ay gi products ki wo isi ki merek kijay gi.
+
+499
+01:08:50.720 --> 01:08:56.240
+Substring Technologies: Tohi jo reducer path, this will act as a storage in your
+
+500
+01:08:56.710 --> 01:09:14.030
+Substring Technologies: store. Ja say user, user key value is authenticated, authenticated key value. Yaha pey reducer path, mother user product API is me product ka jo data woka warak kajay ka, reducer, like store kendar. Muchi lagar samajka bhi, mehikarun, to iska may use abhi karunga future mein. Ti kay? Dekna.
+
+501
+01:09:14.390 --> 01:09:18.700
+Substring Technologies: mega quera.
+
+502
+01:09:23.660 --> 01:09:24.569
+Substring Technologies: DK?
+
+503
+01:09:24.729 --> 01:09:29.510
+Substring Technologies: base query.
+
+504
+01:09:29.729 --> 01:09:36.229
+Substring Technologies: don't worry about that.
+
+505
+01:09:36.390 --> 01:09:37.370
+Substring Technologies: To…
+
+506
+01:09:37.420 --> 01:09:56.640
+Substring Technologies: base query. Base malar base. Base eval tayenge, kuki so that hum, ke ko hum multiple sheets karne wala, product ko create bigger hai, product ko get bigger. Prod ko update bhikar so, hum base query mein base, so that tame baro base eval repeat na kanapati. Cho, starting ka barrele hai.
+
+507
+01:09:56.640 --> 01:10:10.419
+Substring Technologies: To base query mein, like hum use karnege maha, fetch base, sorry, fetch, viral function use karnege, basically, fetch, base query, or base query kendar hum j object pass kerenge, wo hum base karinga, or base eval, like, starting of the eval.
+
+508
+01:10:10.540 --> 01:10:15.610
+Substring Technologies: Toh humara eval kaha, humara eval ira, toh iska starting ya wala hai.
+
+509
+01:10:15.720 --> 01:10:21.800
+Substring Technologies: Yeah. This is the starting URL, ko ya pekarting.
+
+510
+01:10:21.960 --> 01:10:24.450
+Substring Technologies: Starting of the evalu is base evalu me chipkarnik.
+
+511
+01:10:24.770 --> 01:10:25.980
+Substring Technologies: Kwedi katuni?
+
+512
+01:10:26.020 --> 01:10:37.399
+Substring Technologies: create API, usme reducer path me define kar dia, aur apna base Iwale define kar. Ame, actually, apne actions batani. Action batap samjai.
+
+513
+01:10:37.430 --> 01:10:46.299
+Substring Technologies: Action matlap, hai, apne endpoints, ki product ko get karne wala ye hai, product ko update karne wala ya hai, theeka, us se pale mai ba tawunka tag name.
+
+514
+01:10:46.400 --> 01:10:48.520
+Substring Technologies: Tag, or types.
+
+515
+01:10:48.590 --> 01:11:06.889
+Substring Technologies: tag types, array of string tag type names. Specifying a tag type is optional, but you should define them so that they can use for caching and invalidation.
+
+516
+01:11:06.980 --> 01:11:25.709
+Substring Technologies: ye jo tag type se, ye use hoga caching or invalidation kil, caching. Jo product se store hoge, mari store kender, ye tax huhapi use hunge. We define a tag type, you will be able to provide them with that provide tax, and invalidate them with the invalidate tax.
+
+517
+01:11:25.840 --> 01:11:43.969
+Substring Technologies: To YH is important, tag types are defined kando, but EF is purely optional, but use cases. Caching purpose kilos honege. Use for automatic cache invalidation. When data changes, automatically refetch. Jabi data change yoga, to automatically fetch hojang.
+
+518
+01:11:44.040 --> 01:11:52.780
+Substring Technologies: Just say, for example, card ogram me ko data fetch kiya, ya products mein koi nahya product ad gardya, toh, ye tag use hoga for, like, refreshing thing.
+
+519
+01:11:52.870 --> 01:11:58.530
+Substring Technologies: wah.
+
+520
+01:11:58.800 --> 01:12:18.219
+Substring Technologies: apne queries, apne endpoints bataying. Endpoints ki kya kaya honei mal hai. Endpoint karna, update karna put karna ya sab ti ka. So, endpoint mein hum kya karnege, hame ek aero function pass karna hai, or aero function mujay ditiga, ek builder variable. Tika? Ek builder variable, toh…
+
+521
+01:12:18.670 --> 01:12:20.840
+Substring Technologies: Hub Logo Builder.
+
+522
+01:12:21.440 --> 01:12:27.020
+Substring Technologies: Or, builder variable will actually return one object, To obtain mullabuchasa.
+
+523
+01:12:27.430 --> 01:12:37.420
+Substring Technologies: Abh yaha pe ham, build kasakte hai things. Like, object kenda key value, toh, like, humid, hame, get products kirakne hai.
+
+524
+01:12:37.680 --> 01:12:42.060
+Substring Technologies: Products, scheme, hum, Again?
+
+525
+01:12:42.090 --> 01:12:43.430
+Substring Technologies: Builder?
+
+526
+01:12:43.460 --> 01:12:45.640
+Substring Technologies: Variable use Karang, dot.
+
+527
+01:12:45.660 --> 01:12:58.270
+Substring Technologies: Offer yaha pe lak denge query. Toh jabi data ko get karnahoga, to aapko query ush karne hug, like product samh get karne, Prisha. Toh mein ape query liking batagar hame, product ko update karna hoga, toham mutate legehenge.
+
+528
+01:12:58.270 --> 01:13:07.390
+Substring Technologies: change karna hai, mutate. Toh agar update karna hai, add karna hai, toh mutate ka use karne hai, aura get karna hai toh query us karne hai chi jadar kay.
+
+529
+01:13:07.390 --> 01:13:10.469
+Substring Technologies: Ki interview me aapse puchadata, ka. Toh query liking aap hai.
+
+530
+01:13:10.820 --> 01:13:12.419
+Substring Technologies: No, a query it?
+
+531
+01:13:12.760 --> 01:13:26.079
+Substring Technologies: Here's a function, the builder.query, a query under me object pass karing to define the endpoint. Ki hai kis endpoint ka use karna hai, to like kehanpe abuse kar sak to, ki jo endpoint hoga, wo hoga.
+
+532
+01:13:26.230 --> 01:13:29.050
+Substring Technologies: endpoint use currently, like, app.
+
+533
+01:13:29.700 --> 01:13:34.829
+Substring Technologies: endpoint, but basically, slash, products.
+
+534
+01:13:35.550 --> 01:13:43.949
+Substring Technologies: abna, provide tags views kar saktuh, provide
+
+535
+01:13:44.110 --> 01:14:01.270
+Substring Technologies: tags provide tags mein, mein aapi use karunga products. Abih batadong products kyu aapne use kya. Dehoga provide taxi, ya, yaha peeko, agar hum apne, tag types mein hame ha products diarrhat me aapi products denge. That means iska mata biahi ki, hijo products caching cli use urade.
+
+536
+01:14:01.380 --> 01:14:16.580
+Substring Technologies: tag us karate product, toh wo product is query ke li user hai, isili humne hai tag type mein product defined ki hai, aufrei provide tags mein humne hai, apna tag provide kar dia, hijapi data aega, manage this, tag for this data.
+
+537
+01:14:16.700 --> 01:14:19.370
+Substring Technologies: aka.
+
+538
+01:14:19.470 --> 01:14:39.200
+Substring Technologies: array of string, name, habein name dih, specifying tag type is optional, but you should define them so that they can be used for caching and invalidation. When the defining tag type, when defining a tag tag, you will be able to provide them with the provides tag. Fir provide tag, use karke aapuska provide kar saktiv.
+
+539
+01:14:39.340 --> 01:14:52.789
+Substring Technologies: And invalidate them using invalidate tags while when confirming the endpoint. So, hamne ke aake hamne ya pek tag type define kariata, firhamne provide tax ki saita lia, tag ko provide karne ke liye, so that caching maintain ho sa ki.
+
+540
+01:14:52.790 --> 01:14:59.760
+Substring Technologies: Kia ausa ke caching maintain us. Like, ek bhar mein aapko aur samjah dunga, to aap order chess samajauge.
+
+541
+01:14:59.790 --> 01:15:00.670
+Substring Technologies: Take care.
+
+542
+01:15:02.950 --> 01:15:11.980
+Substring Technologies: Okay, okay, okay, so let me… make… Yes. This query provides…
+
+543
+01:15:12.120 --> 01:15:26.710
+Substring Technologies: product data. Use for smart refatching. Smart refetching. Basically, caching only invalidation kili hota, tohi jadar ki ki ye tag, type meini defined kiya, aur ye tag mere bataya hai, ki is data ko aap cache karle na.
+
+544
+01:15:26.950 --> 01:15:28.030
+Substring Technologies: Someone's gay?
+
+545
+01:15:28.770 --> 01:15:29.790
+Substring Technologies: Bakka?
+
+546
+01:15:32.040 --> 01:15:32.980
+Substring Technologies: Tika?
+
+547
+01:15:33.390 --> 01:15:44.139
+Substring Technologies: So, hiji jada ke ka, isko thorasabhi aur explore kar lenge, if you want, but teak wali bhati, mujillah grap sama chuki hoge me kyaka inegi, koshish karah hun…
+
+548
+01:15:44.140 --> 01:15:56.109
+Substring Technologies: it will combine this base URL with this query, and get the data, and put inside your
+
+549
+01:15:56.110 --> 01:16:03.660
+Substring Technologies: Like, store. Aapne store kyandar, ye store ka leg hazko hum bard mein use ka sakhne. A baap ko hi mal no muji sar…
+
+550
+01:16:03.860 --> 01:16:13.660
+Substring Technologies: A single product we get karnahoto. So, single product ki API update clinical. Basically, if you want to use single product to apti ko, products ke baat product ki ID aajay mojilagraph thi ho.
+
+551
+01:16:13.900 --> 01:16:20.759
+Substring Technologies: Toh single product ki haem get kasakna, like, hamara ye endpoint sana ek endpoint.
+
+552
+01:16:20.850 --> 01:16:36.809
+Substring Technologies: Ap ek endpoint, hamne builder ki hap se bena ha? Yeah, they go. Ab ye jahan object kiwala endpoint kata muha, ye wala endpoint kata muha, yaha pe. What we can do? Ik endpoint aura sakte ham. Jaise, ham ne get products by ID.
+
+553
+01:16:36.810 --> 01:16:44.069
+Substring Technologies: Fir se builder, I'm gonna build a variable is Carlosakti.
+
+554
+01:16:44.640 --> 01:16:57.550
+Substring Technologies: not build, builder, dot, or yahap, if query us karang wo data ak get karna abi bhi. Offer se query is an function, uskender freeze object pass karnege, aur apni query first batahenge.
+
+555
+01:16:57.550 --> 01:17:09.870
+Substring Technologies: ID chahi hoge. Toki? Usa ID ka humid product chahi. Toh hai ID, yee besk product ID yogi. Aur is bhar jo ivar el brahenge. I varal brainge, query basically brand ye, usme humblog ye uskare slash.
+
+556
+01:17:10.060 --> 01:17:16.469
+Substring Technologies: Products… Products, and then product key ID, ID. Is there a siabana, okay?
+
+557
+01:17:16.480 --> 01:17:34.439
+Substring Technologies: get product, or ek, get product by ID. Agar mujay update karna hai product ko, ya, create karne hai, tuham create wala bhi bananasakhne. Create wala bana ki ha, create wala bhi mein, bana ke dihasaknau, lekte ko, agar mujay.
+
+558
+01:17:34.560 --> 01:17:37.800
+Substring Technologies: Prodocu create kann. Toh mai habe, create.
+
+559
+01:17:38.190 --> 01:17:38.990
+Substring Technologies: product.
+
+560
+01:17:39.190 --> 01:17:49.229
+Substring Technologies: V, just again, builder, ek endpoint aur banana builder.isbar hame kya karnai pata, mutate.
+
+561
+01:17:49.440 --> 01:17:51.680
+Substring Technologies: Mutant mother, update, update hoga.
+
+562
+01:17:52.160 --> 01:18:00.270
+Substring Technologies: query, toh query mein data chahi ha mein, product chai hai.
+
+563
+01:18:00.770 --> 01:18:16.539
+Substring Technologies: jo humane, actually create karna uska, detail chai, dan am kya karnehy, product will also return an object. Iwaril kyah ho gaiska.
+
+564
+01:18:16.730 --> 01:18:20.790
+Substring Technologies: products yoga.
+
+565
+01:18:21.210 --> 01:18:34.400
+Substring Technologies: Then, data cap ask karne body kender, wo humai product jo mill rai bracket mein wo task.
+
+566
+01:18:34.650 --> 01:18:37.390
+Substring Technologies: So, in donut
+
+567
+01:18:37.700 --> 01:18:44.720
+Substring Technologies: Difference, ki, aap query kartuna, toh query mein directly aap ID ya blank mein directly URL data toho.
+
+568
+01:18:44.840 --> 01:18:54.760
+Substring Technologies: object mein aap URL method and body passcar sector. Basically, yee.
+
+569
+01:18:55.020 --> 01:19:09.639
+Substring Technologies: product data object isivaral pe post kartia jayaga, post method group. Toh isbar meini team endpoints banhadi hain, basically, teen cheech banh chugi hai. Ek to get products, get single products, or create products. Is either a delete or update bansakta hai.
+
+570
+01:19:09.640 --> 01:19:16.319
+Substring Technologies: Toh ye actually API likne kaik tarika hai, RTK ne bata yang muje. Otherwise, humbrook to simple likreat hai, yadkaro.
+
+571
+01:19:16.590 --> 01:19:17.560
+Substring Technologies: Someday?
+
+572
+01:19:17.980 --> 01:19:29.699
+Substring Technologies: Toh isko ek bahar deikh liega aplo, just like aapika check kar liega. Thika, ehikbar aapisko, check kali jega, toh jada badi rega. Otherwise, abh ye kweri jab create hojay na, firh mei ka akarunga bata, fir meaise.
+
+573
+01:19:29.700 --> 01:19:44.909
+Substring Technologies: In a sare functions ko, in sare, like, in sare, actions ko e port kar mung hai, inko, get product, get product by ID, create product, hindko humi bahar se qual karnahoga, toham export liking, const, aur mein, like, kise karonga.
+
+574
+01:19:45.040 --> 01:19:49.049
+Substring Technologies: Use a product API in a, like, product API.
+
+575
+01:19:49.410 --> 01:20:06.759
+Substring Technologies: ye jo object deity mujay, it will return some important data, de ko. Kase, ye mujah, hook ke format bhi data written kari. Uskay naming convention hai, Prasya, samajina. Hame? Jessa, for example, hamari passina pe, get products taha, tohabdik na, jabame is ko use karnege toh kaise us karenege, use…
+
+576
+01:20:07.320 --> 01:20:12.700
+Substring Technologies: Use get product by, ID query, use getProduct query.
+
+577
+01:20:12.880 --> 01:20:17.170
+Substring Technologies: Samalke, toh isne ke a kya, isne use pahle lagaya, get products.
+
+578
+01:20:17.310 --> 01:20:21.149
+Substring Technologies: Automatically, yaha say agi, get products.
+
+579
+01:20:22.100 --> 01:20:25.350
+Substring Technologies: Query kyo ki aapnek query use ki function.
+
+580
+01:20:25.920 --> 01:20:44.360
+Substring Technologies: To use get products query, jase ham iswale hook kay, basically use karenge, ya iswale kaiseak to iswale, naham action bohok to, iswale jaise action ka use karenge, automatically, yehi wala function ko loga. Auri protocol, or aapke data mein, like, action, like, store me safe karte ha.
+
+581
+01:20:44.650 --> 01:20:50.729
+Substring Technologies: Is itra, naming convention samosh na, get product ID tha to, you have to use get product by IDQUARY.
+
+582
+01:20:50.900 --> 01:20:56.379
+Substring Technologies: They can just create karaoke na, to use, like, na, create product mutation.
+
+583
+01:20:56.830 --> 01:21:07.019
+Substring Technologies: mutation tak, create product pawa mutation ta. Toh last meh mutation ayuga, or starting mein use product. Toh istra se jittany bhi operations hunge sari aap nahapay lik hoge.
+
+584
+01:21:07.210 --> 01:21:25.009
+Substring Technologies: Or isko main export kar dia, so that bahar se aapin ko import karke use kar saktiho. Aur ye kudh bhi mein export karhi. Toh ye ha mari banga bangay ek aur tiki ki query API banchan. Is API ko baam configure karenge or us karna start karing. Hame configure karna uska na start karna. Keitelok samajka bahi.
+
+585
+01:21:27.460 --> 01:21:41.310
+Substring Technologies: Toh, basically, humne API benay jiiskender past tin operations. Get product, or get product by ID, create product, or use kase karne, use get product query use karnehy, tumare product saria jaange.
+
+586
+01:21:41.310 --> 01:21:55.180
+Substring Technologies: Use get product by ID query us karnege ek single product ayga, use create product mutation, use krenheit humana product create oka. Api se mega karna ha configure karna pei store kender. Tohamara passi credits kendar kauna che. Ek feature menarunga, product.
+
+587
+01:21:55.560 --> 01:21:59.960
+Substring Technologies: Or isk under egna lunga, like… store.js.
+
+588
+01:22:00.660 --> 01:22:10.719
+Substring Technologies: Feature menu banana keys auth hoga, to auth folder hoga. Asa kar ka features bharna sakhu. Toh products mehang auria pay store configure karang, uskel kya karna wahga, we have to import.
+
+589
+01:22:12.260 --> 01:22:13.699
+Substring Technologies: Configure store.
+
+590
+01:22:15.190 --> 01:22:33.029
+Substring Technologies: configure store, and hum apna import kalenge, apne product API bh, jo humne banahi the product API. Toh ye bhi hame services seh, import kaliya, kahas import kaliya, you will see, yaha se, isko import kaliya. Isko isle import kaya ki hamapne is reducer partnan, is weluka use kar sa ki.
+
+591
+01:22:33.350 --> 01:22:41.160
+Substring Technologies: So, yahapi, like, come, Export karne const, kyuki pada hai. Export…
+
+592
+01:22:42.550 --> 01:22:46.620
+Substring Technologies: const store ko, ya, iska nam ko chaoda, like…
+
+593
+01:22:47.960 --> 01:23:02.780
+Substring Technologies: Product store data, product store, or, like, configure store. So, iskandar object fast karne, aur ha meat ko reducer lagate. Reducer ek object hota. Iskender auth is called to auth ka reducer nam lick teh.
+
+594
+01:23:02.780 --> 01:23:13.850
+Substring Technologies: Mei kalakuma.
+
+595
+01:23:14.120 --> 01:23:19.120
+Substring Technologies: Reducer kenda jo object hai. To mein ke akarung ko pada hai?
+
+596
+01:23:19.350 --> 01:23:25.000
+Substring Technologies: Key is, like, product API.
+
+597
+01:23:25.050 --> 01:23:42.040
+Substring Technologies: dot reducer path. Yeh wala ki use hoga. Isi ki value jo hogi po store kendar manage kayaki, isko key use ki a jag. Toh jab mein product API dot reducer path use kiya toh ye value use hogi as a key.
+
+598
+01:23:42.580 --> 01:23:51.690
+Substring Technologies: product API, product ka reducer, basically, dot reducer. Toh ye kudos reducer de gaapko.
+
+599
+01:23:51.930 --> 01:24:02.479
+Substring Technologies: Kam ye, kusse reducer dioega, tohai se ha product API.reducer liggo, toh ye jo humane reducer provide kar rah, wo, y hapia jayiga, dike, reducer aapko banana kis daruto nahi.
+
+600
+01:24:02.810 --> 01:24:07.980
+Substring Technologies: product API.
+
+601
+01:24:08.100 --> 01:24:16.179
+Substring Technologies: basically, aapka data store kandar manage karika. Perfect. Koid ka toni, oblaykin store kenda data.
+
+602
+01:24:16.190 --> 01:24:19.529
+Substring Technologies: Change? Hamei hapika karna padega?
+
+603
+01:24:19.530 --> 01:24:42.239
+Substring Technologies: calling me to karne karne padi kna, API call hogara ho, tabi toh data hai, tohuske lime hai configuration aur karni parti, middleware key. Toike? Yeah, configuration is like same huti sabkili, to aapisko ek bhar deh liega. Deke, yaha pe hum, configure use karnege, get default variable hota hai, get default middleware. Get default variable, iska nam kudh birak sak toh, to make default middleware akhirams karna.
+
+604
+01:24:42.540 --> 01:24:58.750
+Substring Technologies: middle, where. Rike hai? Aur ye arrow function hota hai, toh abaap square arrow function ke tray is karu. Like, written karna hakli to ab written karnah. Brekit lekani zerotini, aur ye habe, hum yehi wala function call karenge, aur iske under, hum or bhi, like.
+
+605
+01:24:58.760 --> 01:25:03.400
+Substring Technologies: Middle wheels past kasakne, like apne, sorry medial wires to mein abna product API.
+
+606
+01:25:03.450 --> 01:25:05.690
+Substring Technologies: dot middleware password.
+
+607
+01:25:06.080 --> 01:25:25.379
+Substring Technologies: ki aapne se product API benay hai. Kiski aapse create API function ki aapse. Sapse pele jaise ya product API.reducer call karoo or reducer create kar hai. Kaiko, here they go.
+
+608
+01:25:25.520 --> 01:25:39.060
+Substring Technologies: middleware bhi create kar de rah, product API.middlewear. Theeka? Toh jaseya apne product API pe middleware call ke hai, sneare middleware bhi create kar di, usko configure kar dia, aapk reducer ke sah.
+
+609
+01:25:39.390 --> 01:25:47.279
+Substring Technologies: Prodapi.reducer aapne qual kya, reducer b create hogya, or wo yaha pe configure hogi ha. Interesting eigini ya, bada akut seh.
+
+610
+01:25:47.710 --> 01:26:04.960
+Substring Technologies: Kita ni chi je automatic hurry. Toh aapko step me kya samajne, aapko step mein samajne, ki aapko pale API banal linea, firusko aki hapi configure karte hain. That's it. Aapka ka mahochika almost. Basam ki akarne wal, what we have to do, we just have to provide this store. Kase? Provide kise karate, yapkaro?
+
+611
+01:26:05.150 --> 01:26:15.510
+Substring Technologies: And we will just use… isi kenda lick teeth nam block? I think browser router kendari lick teeth, I don't know.
+
+612
+01:26:15.730 --> 01:26:20.540
+Substring Technologies: like, provider.
+
+613
+01:26:22.660 --> 01:26:24.460
+Substring Technologies: provider, React Linux.
+
+614
+01:26:24.860 --> 01:26:27.250
+Substring Technologies: And bakit cheese dalenge? Oh.
+
+615
+01:26:31.330 --> 01:26:34.719
+Substring Technologies: I think routes be under wraithatha, ka, keto.
+
+616
+01:26:37.530 --> 01:26:44.490
+Substring Technologies: echis.
+
+617
+01:26:45.200 --> 01:26:46.590
+Substring Technologies: provider.
+
+618
+01:26:49.180 --> 01:26:54.590
+Substring Technologies: store mein, aapnai store pass karne dihara product store.
+
+619
+01:26:55.000 --> 01:26:57.090
+Substring Technologies: Product is 2. That's it, bus.
+
+620
+01:26:57.450 --> 01:27:18.649
+Substring Technologies: Abham apne API is ko use kar sekne, basically, kiss ko use kar sakte, apne in actions ka use kar sakhne, use get product query, get product by ID query, create mutations. To abuse karke abluk dekne, kya products RA. Kaise use karne. So, yaha pe. Auri hai hum, actually, product ko fetch karin. Kasi fetch karang, let's see.
+
+621
+01:27:19.350 --> 01:27:23.420
+Substring Technologies: Hub is gonna use? Why? Get product query theory.
+
+622
+01:27:23.740 --> 01:27:32.279
+Substring Technologies: Interesting. Jhase aapkar wogana, you will find something, deho. Aapk baho sari jamil langi, ye serf data.
+
+623
+01:27:32.510 --> 01:27:36.260
+Substring Technologies: Is loading a variable cheer?
+
+624
+01:27:36.930 --> 01:27:41.599
+Substring Technologies: Or error variable J. Abaabeko na aapko data se matlap tha.
+
+625
+01:27:41.710 --> 01:27:48.919
+Substring Technologies: Na, apne is loading kahi benaya, na apne kahi arabana hai. Kahi bana hai, nahi. But ye jo hai amara, like, hookah hai.
+
+626
+01:27:49.020 --> 01:27:57.450
+Substring Technologies: ye hume kudse de diga data, iskandar hamara product ka data jaiga, iskanda loading haiga, or iskandar agar in case error hogi to error a jayi.
+
+627
+01:27:57.610 --> 01:28:11.379
+Substring Technologies: Kitan interesting bato. Ki, ahem, agar if, like, agar is loading true hai, that means data will load over hai. So, isk es mein written kar denge ka. SKS mein hum re.
+
+628
+01:28:11.540 --> 01:28:19.950
+Substring Technologies: 10 karate, return, karate hai, like H1, data is loading, yeah, product is loading.
+
+629
+01:28:20.190 --> 01:28:22.510
+Substring Technologies: Products is loading.
+
+630
+01:28:23.020 --> 01:28:30.149
+Substring Technologies: So, starting me, product, like, text3XL, padding, 10.
+
+631
+01:28:30.690 --> 01:28:32.030
+Substring Technologies: Text center.
+
+632
+01:28:33.210 --> 01:28:36.269
+Substring Technologies: Excellent. Okay, product is loading. But in case…
+
+633
+01:28:36.620 --> 01:28:46.880
+Substring Technologies: Like, error agi, toh akuch error bito sakti. Toh, like, if, asana, error ahi, toham kahenge, in that case, something went wrong.
+
+634
+01:28:46.990 --> 01:28:47.870
+Substring Technologies: Kika?
+
+635
+01:28:48.530 --> 01:28:51.050
+Substring Technologies: Something went wrong.
+
+636
+01:28:51.890 --> 01:29:02.529
+Substring Technologies: Perfect. Or agar asa ni hai na aisa hai, that means product hamar load us joking. So, in this case, apne products ko, dihane value. Text3XL mein.
+
+637
+01:29:03.080 --> 01:29:08.420
+Substring Technologies: Like, products, and product length.
+
+638
+01:29:08.560 --> 01:29:09.460
+Substring Technologies: Huh.
+
+639
+01:29:09.920 --> 01:29:11.939
+Substring Technologies: length hajay ka, like, data.
+
+640
+01:29:12.170 --> 01:29:16.350
+Substring Technologies: Length… Products is loaded.
+
+641
+01:29:17.320 --> 01:29:31.600
+Substring Technologies: like, apne, best page pe, Oh, sorry.
+
+642
+01:29:31.890 --> 01:29:43.540
+Substring Technologies: Oh, sorry. So, ikbar mein refresh kurunga, and dikne kuch error athlegul error ari, and takea error ari, oh, let's see.
+
+643
+01:29:43.970 --> 01:29:55.620
+Substring Technologies: So, provider is not, okay, so age is not a component, route component, okay. So, provider mein humblogen ke galat laga di hai, so main.j6 provider ka hai,
+
+644
+01:29:55.950 --> 01:29:59.749
+Substring Technologies: Provider hamilagar browser router kenda lagana bhata, muji ada niya hai.
+
+645
+01:30:01.060 --> 01:30:07.440
+Substring Technologies: provider is not a route. That means eske niche touni lagi ka, eske up rah karte.
+
+646
+01:30:11.830 --> 01:30:19.309
+Substring Technologies: Is… Okay? So, EST ke, ami chalunga, or products by clickerung.
+
+647
+01:30:20.530 --> 01:30:21.420
+Substring Technologies: And?
+
+648
+01:30:21.720 --> 01:30:22.900
+Substring Technologies: Refresh, Karu?
+
+649
+01:30:23.550 --> 01:30:25.480
+Substring Technologies: khalagai.
+
+650
+01:30:26.020 --> 01:30:29.880
+Substring Technologies: Product PHP many Sarakam kar dia, da-da.
+
+651
+01:30:30.430 --> 01:30:46.020
+Substring Technologies: product space na, seh karl.
+
+652
+01:30:46.510 --> 01:30:54.990
+Substring Technologies: Interesting. To manage plus change cardiya, and… product page peh.
+
+653
+01:30:55.910 --> 01:30:57.340
+Substring Technologies: Ibar Rifeskalu?
+
+654
+01:30:58.490 --> 01:31:02.640
+Substring Technologies: Product page is not defined kahindi katori, okay?
+
+655
+01:31:02.920 --> 01:31:10.580
+Substring Technologies: Oh, kahabi kahabi, Product… product dot… Oh, yes.
+
+656
+01:31:12.750 --> 01:31:16.540
+Substring Technologies: copy-paste kyana.
+
+657
+01:31:18.870 --> 01:31:19.810
+Substring Technologies: Abdiko?
+
+658
+01:31:20.470 --> 01:31:34.579
+Substring Technologies: API at reducer path prototype has not been added to the store. You must add the middle layer for the function correctly.
+
+659
+01:31:34.970 --> 01:31:43.479
+Substring Technologies: gard ligi liber mein humblogone hai.
+
+660
+01:31:44.380 --> 01:31:47.450
+Substring Technologies: So…
+
+661
+01:31:58.700 --> 01:32:13.050
+Substring Technologies: And let's see, how aapas development, tohapne store me chalte, product value store kyandar hinder under ya pe, aur e bar deklete hai, is code ko, dubara se, and…
+
+662
+01:32:13.320 --> 01:32:16.370
+Substring Technologies: Pahil to reducer meini lagaya hai. Perfect.
+
+663
+01:32:16.910 --> 01:32:18.289
+Substring Technologies: We have the reducer, huh?
+
+664
+01:32:20.660 --> 01:32:25.559
+Substring Technologies: configure reducer, reducer kandar ek object hai.
+
+665
+01:32:27.180 --> 01:32:45.949
+Substring Technologies: Perfect, theek hai. Object kender, chuki menu uske hai, this is a reducer path kana. Think pro reducer comma. Uske baadamne comma laga, middleware. Middleware, middleware mein variable AI, get default middleware, actually, arrow function thought, fair arrow function se daikkei may return kar DI.
+
+666
+01:32:46.340 --> 01:33:03.840
+Substring Technologies: Get default middleware. Okay, okay, okay, okay, so problem pata kaya obi, yaha, ki, hab long hai directly each is called kaliya, but hoga pataka, we have to pass am, like, yeh function hai. Aur ye function mujay ek conkat naam ka method us, method kandaram abna middleware pass karin.
+
+667
+01:33:04.220 --> 01:33:12.290
+Substring Technologies: middleware kar sak toh.
+
+668
+01:33:12.710 --> 01:33:23.140
+Substring Technologies: Category API.Middlewear, hi? So islei mein hai aisak karna aapko. Fir concatenate, tusra function melega is function pay.
+
+669
+01:33:23.340 --> 01:33:29.910
+Substring Technologies: log, and yes. Diga?
+
+670
+01:33:30.260 --> 01:33:32.949
+Substring Technologies: Product 49 is loaded. Interesting.
+
+671
+01:33:34.840 --> 01:33:36.030
+Substring Technologies: Kita lak sausage.
+
+672
+01:33:36.500 --> 01:33:40.250
+Substring Technologies: Product 49 is loaded in the product MRA un chance product load okay.
+
+673
+01:33:40.660 --> 01:33:45.240
+Substring Technologies: doodit.
+
+674
+01:33:45.890 --> 01:33:57.060
+Substring Technologies: Aur network call bh mein di katham apu, lah, kituna tagada hai network call kar hai. Here they go, networks kaha pe hai, like, network call mujit dihy, network call to me isko hatangwa.
+
+675
+01:33:57.390 --> 01:34:02.790
+Substring Technologies: You'll see… Beautiful.
+
+676
+01:34:03.360 --> 01:34:04.630
+Substring Technologies: Que talcotika?
+
+677
+01:34:06.580 --> 01:34:08.680
+Substring Technologies: The third is directly loading ayata.
+
+678
+01:34:09.140 --> 01:34:13.039
+Substring Technologies: Very fresh karam, first Ignan. Here they go. Loading ayata thudi habein.
+
+679
+01:34:13.570 --> 01:34:19.109
+Substring Technologies: home pay gai.
+
+680
+01:34:19.690 --> 01:34:22.520
+Substring Technologies: Our products peg. Yeah, home pay malogay.
+
+681
+01:34:23.070 --> 01:34:33.470
+Substring Technologies: Refresh kar lia page, abob may produce yang. Mein home, aurmalu manager saps website kohli, toh homepage ko lah.
+
+682
+01:34:33.680 --> 01:34:34.790
+Substring Technologies: Pombezkla?
+
+683
+01:34:35.300 --> 01:34:45.910
+Substring Technologies: Ap mein product space ya. Toh pahli bar aaround to obese ba data load huga. Here they go. Products 49 is loaded. API say.
+
+684
+01:34:46.390 --> 01:34:53.929
+Substring Technologies: about page aroh, homepage araw, offers a product spi aunga, toh dek na.
+
+685
+01:34:54.900 --> 01:34:59.599
+Substring Technologies: data store karakai.
+
+686
+01:35:00.080 --> 01:35:07.669
+Substring Technologies: Yes, cache mhmi data, store karaka hai. A barbar aika di ka thing habe.
+
+687
+01:35:07.770 --> 01:35:15.600
+Substring Technologies: Leikin?
+
+688
+01:35:16.330 --> 01:35:19.730
+Substring Technologies: Kyuki?
+
+689
+01:35:19.740 --> 01:35:28.090
+Substring Technologies: loading nahi di kayuki, cash memor mein data, store kaleita hai. Otherwise, bar bahi load dota, jetny bar ata, user hai mulik dita na, toh jittini baar ko yata odikta.
+
+690
+01:35:28.090 --> 01:35:41.180
+Substring Technologies: Apne products ka, esteemal bhar sakne pata, kasi. Products a hain istemal kar sakne, like product space tha, yaha pei hum products ko, print bhar saknei ke karke, mehdikataung ek diplilo, ismila gadu, ye jo hai ho, like ke products…
+
+691
+01:35:41.180 --> 01:35:42.450
+Substring Technologies: container device.
+
+692
+01:35:42.480 --> 01:35:47.650
+Substring Technologies: container pe aap map laga saktuna. Ap abne data pe, map laga do.
+
+693
+01:35:48.170 --> 01:35:50.310
+Substring Technologies: aka.
+
+694
+01:35:50.670 --> 01:35:57.089
+Substring Technologies: Or ekka item agar mill ya, tohap, like, card kastemalkasaktu, jo card kaha se aroka, ideho.
+
+695
+01:35:58.070 --> 01:36:03.830
+Substring Technologies: Card. Oh, card header bhi hotais meh. Card header mein, like, card title hotay.
+
+696
+01:36:04.300 --> 01:36:05.870
+Substring Technologies: It's car title, me?
+
+697
+01:36:06.140 --> 01:36:09.339
+Substring Technologies: Product kajo, item kajo, title hai wa haiga.
+
+698
+01:36:09.820 --> 01:36:11.450
+Substring Technologies: item.title.
+
+699
+01:36:12.660 --> 01:36:13.549
+Substring Technologies: You do.
+
+700
+01:36:13.850 --> 01:36:27.170
+Substring Technologies: Basically, sorry, CSS lagoon bahi mein kya karam.
+
+701
+01:36:28.530 --> 01:36:30.179
+Substring Technologies: See, it's a string low.
+
+702
+01:36:30.480 --> 01:36:33.319
+Substring Technologies: So, width is equal to 1 by 3.
+
+703
+01:36:33.550 --> 01:36:36.510
+Substring Technologies: Team, thin cards, basically, so let's see.
+
+704
+01:36:37.210 --> 01:36:41.080
+Substring Technologies: Here they go. Or, eka, ko aapkar do flex.
+
+705
+01:36:41.470 --> 01:36:45.749
+Substring Technologies: So that, yeah… Are you impressed Catwick Bar?
+
+706
+01:36:46.640 --> 01:36:56.050
+Substring Technologies: Product is loading, here they go. Thinkya. Aurikam karte, agar jagini tuham log of flex wrap karate na, jagain uppersini jiah. Kuchaya sa.
+
+707
+01:36:56.350 --> 01:36:59.460
+Substring Technologies: Okay? Or Ikamp guru, GAP Halkasa.
+
+708
+01:37:00.590 --> 01:37:01.790
+Substring Technologies: Dokalilo.
+
+709
+01:37:03.340 --> 01:37:09.230
+Substring Technologies: Yes. Like… Okay, SpaceX era dictate.
+
+710
+01:37:09.660 --> 01:37:13.770
+Substring Technologies: a space… X3.
+
+711
+01:37:16.330 --> 01:37:24.100
+Substring Technologies: To dodo cards, basically, or a karm karo, So, gap he maintained, gross.
+
+712
+01:37:28.560 --> 01:37:38.699
+Substring Technologies: Okay? Uske baada aap, like, happy cardih description bhota say, card, description, or card description mein aap item ka, dis…
+
+713
+01:37:40.130 --> 01:37:45.730
+Substring Technologies: Item ka description bh ya juga. Aur halka, happy.
+
+714
+01:37:46.010 --> 01:37:49.730
+Substring Technologies: Margin, 5 years, kun niche kar saktuh.
+
+715
+01:37:49.920 --> 01:38:01.029
+Substring Technologies: So, istra se, even image bh di khasak toh, if you want to image directly, upper bh di, upper di khasakne habein, card headers ke just image tag, auras mein kali kunga.
+
+716
+01:38:01.140 --> 01:38:15.499
+Substring Technologies: SRC mein de ko, agar mein child, like aapko, y haisme de ko, harik product mein title hai, even price b here, description hai, or yaha pey deko toh images hai, toh mein pahili image lay wrong. Okay. What I'm do.
+
+717
+01:38:15.500 --> 01:38:22.439
+Substring Technologies: I am going to do, like, images jo, array hai, item jo hai, uskewa images hai, or images ki pahi image lelehda.
+
+718
+01:38:22.800 --> 01:38:25.270
+Substring Technologies: Dige?
+
+719
+01:38:25.820 --> 01:38:32.510
+Substring Technologies: Yes, dika? Torah sauska birthugar amlug marriage kale, like, class.
+
+720
+01:38:34.120 --> 01:38:36.000
+Substring Technologies: Vit kartete hain.
+
+721
+01:38:36.100 --> 01:38:38.160
+Substring Technologies: 100% Kardakia, birthfos.
+
+722
+01:38:42.140 --> 01:38:50.210
+Substring Technologies: height is ki… Auto kartnika.
+
+723
+01:38:51.640 --> 01:38:53.749
+Substring Technologies: High diskey, autograde.
+
+724
+01:38:57.000 --> 01:39:01.290
+Substring Technologies: TX, single product, C, basically, product summary.
+
+725
+01:39:02.090 --> 01:39:05.090
+Substring Technologies: karte.
+
+726
+01:39:06.090 --> 01:39:19.870
+Substring Technologies: width 1 by… iski 1x4 karate, card gi height. Thra aur card shota ho, ha. Or, height bh mein kush, like, raktao, height mein, aaphi humay, like, 10 su pixel rakko bhai.
+
+727
+01:39:20.760 --> 01:39:22.719
+Substring Technologies: Okay, 300 pixel height.
+
+728
+01:39:22.920 --> 01:39:26.510
+Substring Technologies: pixel ako.
+
+729
+01:39:28.840 --> 01:39:46.940
+Substring Technologies: can be, written as, okay, 6.2 licksakhne isko ti ke liggo bhai. Toh lick doh Object.
+
+730
+01:39:47.510 --> 01:39:50.480
+Substring Technologies: Center hotay, kabar bhota.
+
+731
+01:39:51.720 --> 01:39:52.820
+Substring Technologies: Oh, I think…
+
+732
+01:39:54.200 --> 01:40:02.629
+Substring Technologies: card header kenda nicht hai. Actually, mujay upar se gap nijay, ar jo ye gap aaran ha. I don't want this.
+
+733
+01:40:03.590 --> 01:40:06.959
+Substring Technologies: I said.
+
+734
+01:40:10.370 --> 01:40:11.190
+Substring Technologies: I like…
+
+735
+01:40:16.770 --> 01:40:22.420
+Substring Technologies: Like, padding top zero, I want.
+
+736
+01:40:25.010 --> 01:40:32.560
+Substring Technologies: padding tops 0. Oh, yes, this is I want. Ho tops hai? Yes, I want this.
+
+737
+01:40:32.980 --> 01:40:44.680
+Substring Technologies: calculate karungha, kasi di koan.
+
+738
+01:40:47.560 --> 01:40:50.090
+Substring Technologies: calci ek function hotaise mein.
+
+739
+01:40:50.720 --> 01:40:56.459
+Substring Technologies: 25% minus this pixel.
+
+740
+01:40:56.920 --> 01:41:05.389
+Substring Technologies: Actually, das pixel minus many precisely gya, ye jo gapping ari, ye gapping.
+
+741
+01:41:05.390 --> 01:41:21.999
+Substring Technologies: Toho sakta hai mein su chaki teen gapping hai, to akar doho pixel key gapping bhugi, toh doh do char dose, or doh kinare art, odo thus. Tohi mein das pixel, total width mein se das pixel minus kar diamonda kine ka mantam, ki purchase, mela purchase ye, purchase hai, purchase hai, purchase hai.
+
+742
+01:41:22.350 --> 01:41:28.479
+Substring Technologies: 90 hogi ko ki gap hi tohes mein.
+
+743
+01:41:28.940 --> 01:41:42.440
+Substring Technologies: hai.
+
+744
+01:41:43.230 --> 01:41:46.340
+Substring Technologies: load kaya dasikhna.
+
+745
+01:41:47.050 --> 01:41:55.569
+Substring Technologies: Interesting. Baki aarap dekho vert…
+
+746
+01:41:55.580 --> 01:42:07.670
+Substring Technologies: 1, 2, by 3 karke is ko MX Auto Bhilaga sakte aapki mariji, center pay, and margin topo. 10.
+
+747
+01:42:08.860 --> 01:42:10.100
+Substring Technologies: Kate, you need to cut.
+
+748
+01:42:10.760 --> 01:42:18.279
+Substring Technologies: Toh beach may be, products legade. Wati products actually database se load aura backend seh. Toh ye habe ko yaake, database se product load karke decksak hai.
+
+749
+01:42:18.650 --> 01:42:30.980
+Substring Technologies: products load, nahi hunge. Fir… Nahilurongue. Hilurong.
+
+750
+01:42:31.640 --> 01:42:35.930
+Substring Technologies: So, this is what, you can do.
+
+751
+01:42:36.270 --> 01:42:48.640
+Substring Technologies: card header the… ekam aur kar saktia, po… Ek card body biota.
+
+752
+01:42:49.360 --> 01:42:50.170
+Substring Technologies: Shut.
+
+753
+01:42:54.980 --> 01:42:57.629
+Substring Technologies: Card body neo tag. -Oh.
+
+754
+01:42:58.150 --> 01:43:01.940
+Substring Technologies: Card content. Audio description me content kenda wrong.
+
+755
+01:43:02.420 --> 01:43:03.949
+Substring Technologies: Yeah, for the sick.
+
+756
+01:43:05.070 --> 01:43:07.999
+Substring Technologies: Tika? Offer mein ek card footer hota.
+
+757
+01:43:09.280 --> 01:43:14.509
+Substring Technologies: Or card footer mein harpe, actually, button marani walao, like, view key button, okay?
+
+758
+01:43:15.210 --> 01:43:17.279
+Substring Technologies: Here they go.
+
+759
+01:43:17.480 --> 01:43:18.740
+Substring Technologies: Vivatani?
+
+760
+01:43:18.950 --> 01:43:22.590
+Substring Technologies: Add to.
+
+761
+01:43:24.360 --> 01:43:25.160
+Substring Technologies: God.
+
+762
+01:43:25.920 --> 01:43:33.380
+Substring Technologies: variant jo huga, Outlined… outlined over?
+
+763
+01:43:35.850 --> 01:43:42.070
+Substring Technologies: Okay, he outlined. Baki, you can do footer pay aapihan peh class name, laga sakto flex.
+
+764
+01:43:42.500 --> 01:43:43.600
+Substring Technologies: Gap 2.
+
+765
+01:43:48.690 --> 01:43:52.750
+Substring Technologies: Okay? Justify, or center.
+
+766
+01:43:53.130 --> 01:44:00.480
+Substring Technologies: So, we'll see. Auch aur bhichtu, like, ye bohot badava dikrana ye.
+
+767
+01:44:00.810 --> 01:44:12.619
+Substring Technologies: Toh, is meh se apat bisak toh, chart baat null sauce toh, chart bhakamanda, apar do diko, fuse ke baad, like kap dot dot lagato. Address akta, click karke view kar sakta.
+
+768
+01:44:12.620 --> 01:44:26.070
+Substring Technologies: RTK query. So, RTK query kaya faita hai, i loading mujay nahi lagana Prada. Loading mujay, nahi laganapata, i loading apne aapseh. Is loading ke jaga aaphor bhikam karsak tohai kei spinner hotay. Apne, yaha peko.
+
+769
+01:44:26.200 --> 01:44:33.689
+Substring Technologies: Kinda like… Sorry, aapiha control k karo, horek spinner hotay se spinner ka bistemarka saktu ya spinner.
+
+770
+01:44:33.810 --> 01:44:46.820
+Substring Technologies: I say. Just, add this spinner to your code, to your project, copy gallo, Or… or… ko.
+
+771
+01:44:47.620 --> 01:44:50.110
+Substring Technologies: Paquero.
+
+772
+01:44:52.530 --> 01:44:55.809
+Substring Technologies: product load aura hai.
+
+773
+01:44:56.980 --> 01:45:01.780
+Substring Technologies: Did you get happy, like… Espinar lagado?
+
+774
+01:45:02.240 --> 01:45:03.379
+Substring Technologies: I'm not doing that?
+
+775
+01:45:03.990 --> 01:45:07.050
+Substring Technologies: Spinner, a paragraph mein aap ye liggo.
+
+776
+01:45:07.400 --> 01:45:09.530
+Substring Technologies: Product is… products is loading.
+
+777
+01:45:09.740 --> 01:45:11.939
+Substring Technologies: harabihapi, like, flex use ko?
+
+778
+01:45:12.900 --> 01:45:16.319
+Substring Technologies: Flex and FlexCall, upper si niche.
+
+779
+01:45:16.540 --> 01:45:19.949
+Substring Technologies: And justify center item center.
+
+780
+01:45:20.070 --> 01:45:23.920
+Substring Technologies: That's it.
+
+781
+01:45:24.060 --> 01:45:26.079
+Substring Technologies: The first crew? Here they go.
+
+782
+01:45:27.130 --> 01:45:28.880
+Substring Technologies: Liga, Prisha.
+
+783
+01:45:29.680 --> 01:45:30.880
+Substring Technologies: Nika Prabhat.
+
+784
+01:45:32.270 --> 01:45:52.250
+Substring Technologies: Is this a backend set data, even spinner ko aap customized kar size toward us a bada rakna hai, to aapka ko, size mein, like, aap 8XL use kar sak toh, bada di hega. So, if you want to spinner, like, size, sorry, size, and size mein aap use kar sak to 8X, 8 directly ni bhada.
+
+785
+01:45:52.640 --> 01:45:56.919
+Substring Technologies: class name miss, size 8, click Navut.
+
+786
+01:45:59.900 --> 01:46:04.720
+Substring Technologies: Class name… Size 8.
+
+787
+01:46:05.210 --> 01:46:09.190
+Substring Technologies: And, here we go.
+
+788
+01:46:10.150 --> 01:46:12.390
+Substring Technologies: Diga?
+
+789
+01:46:13.430 --> 01:46:18.210
+Substring Technologies: Okay? The first time, Anoku website, or product specialistini click here.
+
+790
+01:46:18.630 --> 01:46:32.600
+Substring Technologies: Toh, thora sa loading dikhega, backhand suggested data load hoga, sara data. Barbar fear manlo uskaman ye about pe jaum. Toh about pe a. Digin firh se products per agar to load, nahi hoga kyu ke store kenda data, already loaded hoga. Cash.
+
+791
+01:46:32.980 --> 01:46:34.000
+Substring Technologies: Manageable.
+
+792
+01:46:34.460 --> 01:46:46.650
+Substring Technologies: So, this is what you can do with the redex. Redexing bohot Tagrishi hai, ye ho the RTK query. This is very, very, very powerful. Or aapke, like, application co y
+
+793
+01:46:46.900 --> 01:46:59.880
+Substring Technologies: agar sobar, First time. To first time, product PHP ahar.
+
+794
+01:47:00.040 --> 01:47:12.810
+Substring Technologies: eko bar data nahi logo, sif naan nebe bar bache jagapka data, server call nahi yoga, aur eki bar aesa chance huga ki server call kiya jaiga aka
+
+795
+01:47:13.470 --> 01:47:14.580
+Substring Technologies: I had told me?
+
+796
+01:47:16.320 --> 01:47:19.849
+Substring Technologies: Pravat, so this is what RTK?
+
+797
+01:47:20.180 --> 01:47:34.090
+Substring Technologies: Implement meini karke dihadia, abhar jaga parti ke dek use kar saktu, jaza, for example, may chatong ki mein view pay click krung is view pay. Toh jaza view pay click krunga, kahagia, view button here ina, toh jaza mein view pay click krung, mein navigate kar sa
+
+798
+01:47:34.660 --> 01:47:39.750
+Substring Technologies: products ke single page. Toh, like keen may use karunga nav link.
+
+799
+01:47:40.540 --> 01:47:52.050
+Substring Technologies: ap hai.
+
+800
+01:47:52.360 --> 01:47:53.240
+Substring Technologies: Yeah.
+
+801
+01:47:53.360 --> 01:48:01.600
+Substring Technologies: Products, then product ID. Then ID kasi ay. ID anek lei, dynamic lebao hai, item.id.
+
+802
+01:48:02.090 --> 01:48:10.109
+Substring Technologies: So, this is interesting. Yeah, there they go. 6 saga. Diga?
+
+803
+01:48:10.220 --> 01:48:13.370
+Substring Technologies: is product perklik.
+
+804
+01:48:13.480 --> 01:48:14.880
+Substring Technologies: Peduga a pet dirague.
+
+805
+01:48:15.150 --> 01:48:22.880
+Substring Technologies: So, like, kapne hai click ya. page pay bham.
+
+806
+01:48:23.050 --> 01:48:26.390
+Substring Technologies: Query laga sakte hai, kahi bali query laga aktein, get single product.
+
+807
+01:48:26.700 --> 01:48:29.540
+Substring Technologies: or ID passcode sector plus?
+
+808
+01:48:30.330 --> 01:48:50.150
+Substring Technologies: So, next class kyan daram log, isko complete karenge. Like, abih ye ha marisade products di karne hai, abham single product ko, click karke decksak mein. Sir, atu card banhenge, baki JGB mein aapko habe bana kar di kangwa, yepura e-commerce aapko bana kar di kangwa, like dotin dir mein. Cheek? I think samosa lok mein kayakai
+
+809
+01:48:50.880 --> 01:48:51.940
+Substring Technologies: Somebody's gonna?
+
+810
+01:48:54.720 --> 01:49:04.479
+Substring Technologies: Thika? So, this code ko mein, like, update kartunga, aap logis peam kariega, hike mehat kariega, and result legehog aplog meinhat karke.
+
+811
+01:49:05.430 --> 01:49:11.020
+Substring Technologies: index.html piji.
+
+812
+01:49:11.170 --> 01:49:12.699
+Substring Technologies: Index.html.
+
+813
+01:49:12.910 --> 01:49:21.830
+Substring Technologies: index.html, or yaha pay, like a class lagade jiap class dark. Ultimately, search engine dark theme Apply otairie dejo.
+
+814
+01:49:22.410 --> 01:49:28.450
+Substring Technologies: dark hamar hai.
+
+815
+01:49:28.860 --> 01:49:33.960
+Substring Technologies: Toh napbar ko mein dark banana play.
+
+816
+01:49:34.170 --> 01:49:36.640
+Substring Technologies: Baha.
+
+817
+01:49:39.560 --> 01:49:41.910
+Substring Technologies: Here they go. So, interesting.
+
+818
+01:49:42.120 --> 01:49:44.399
+Substring Technologies: Next class may have looked like Monday go.
+
+819
+01:49:44.750 --> 01:49:59.499
+Substring Technologies: ye expect hour bhakam karenge, or is project ko complete karenge, jahasiya, product ko, banana sek ad card mein product ko ad kar secte, aur filter mein, or yearly API aap deki ga, kaun se API thihar?
+
+820
+01:50:00.420 --> 01:50:06.039
+Substring Technologies: ibi batar ka.
+
+821
+01:50:06.180 --> 01:50:08.929
+Substring Technologies: They put title and passcode or something.
+
+822
+01:50:09.760 --> 01:50:18.629
+Substring Technologies: Filter kernikhi. Ka, like, users bhi get ka sekho, user create ka sekhto, authentication bhi use ka sekho, like.
+
+823
+01:50:18.740 --> 01:50:30.220
+Substring Technologies: locations, if you want, use kar saktuh. Fake EPA, aapko, like, backend zeroth hai aapko project chaliga. Thinka?
+
+824
+01:50:30.280 --> 01:50:42.029
+Substring Technologies: And here is a playground, toh, playground will try khaktuh. Toh yeet hike. Aur APIs badling, bahi sara ka memara, automatically honee lagi.
+
+825
+01:50:42.270 --> 01:50:51.139
+Substring Technologies: You just change this, and will… that… that will work automatically. Apne aapse, automatically, kaam karna start och hai.
+
+826
+01:50:52.220 --> 01:50:56.060
+Substring Technologies: API humay, mild aga, backend developer joga, API banner kayo.
+
+827
+01:50:56.240 --> 01:50:58.620
+Substring Technologies: And… here we go!
+
+828
+01:51:01.890 --> 01:51:02.850
+Substring Technologies: Tiger?
+
+829
+01:51:04.460 --> 01:51:11.789
+Substring Technologies: redux use koarne period zerule usko.
+
+830
+01:51:12.000 --> 01:51:15.580
+Substring Technologies: So, will you also tease the payment integration? Yes, why not?
+
+831
+01:51:16.070 --> 01:51:31.250
+Substring Technologies: They go, JavaScript of TypeScript means jadan term me ye, aber ekh do project ja seam banana lenge, JavaScript se firme typescript use karunga. I always use TypeScript. Me aapne personal projects ke liye, client kili, hame sa TypeScript use karta. Hame sa always.
+
+832
+01:51:31.790 --> 01:51:35.569
+Substring Technologies: Ma'am is always TypeScript use ko, aapko me may recommend karonga ki abi TypeScript use ko.
+
+833
+01:51:36.000 --> 01:51:40.340
+Substring Technologies: learning purpose kili hum, JavaScript use kartne, baki hum haipkriti use karte.
+
+834
+01:51:41.180 --> 01:51:42.230
+Substring Technologies: TKB?
+
+835
+01:51:43.690 --> 01:52:01.049
+Substring Technologies: So, bus… is pages ko may improve kalunga garbage. Products page ko improve kar lunga, theek hai, or vowout page ko banana lunga, sign-in page, sign up page banan lunga, then we will integrate this fake API with the app. Then.
+
+836
+01:52:01.280 --> 01:52:04.419
+Substring Technologies: back-end API has been on a single leg, I don't know who connect call is here.
+
+837
+01:52:04.780 --> 01:52:05.930
+Substring Technologies: T. Gimmeli!
+
+838
+01:52:10.200 --> 01:52:22.299
+Substring Technologies: Okay, bhi. Csaro, isko code ko mein kar juga, commit kar do, or make sure yaki aap ye API is a sectiona, RTK API isko se padhi, really interesting hai, about important B. Tikkei?
+
+839
+01:52:22.500 --> 01:52:28.759
+Substring Technologies: Okay, bye. Shalom. Bye-bye. Good night, everyone.
+
+840
+01:52:29.170 --> 01:52:35.929
+Substring Technologies: Icompany, we get design from Figma… yeah, mostly Jadhatar Figma pehi design multi.
+
+841
+01:52:36.110 --> 01:52:45.660
+Substring Technologies: me asa banado.
+
+842
+01:52:46.630 --> 01:52:51.450
+Substring Technologies: asahi design che ha.
+
+843
+01:52:52.320 --> 01:52:57.969
+Substring Technologies: And we have to code it as it is, yes. You have to code it as it is, same to same.
+
+844
+01:52:58.380 --> 01:53:12.480
+Substring Technologies: They will provide the designs, and you have to code that design. Agar aapki company koi particular tool nahi diraka hai.
+
+845
+01:53:13.500 --> 01:53:18.640
+Substring Technologies: Like, AI could say be used kar sak toh, but most of them could say karnautati ka.
+
+846
+01:53:19.020 --> 01:53:20.750
+Substring Technologies: Okay, mate, bye-bye.
+

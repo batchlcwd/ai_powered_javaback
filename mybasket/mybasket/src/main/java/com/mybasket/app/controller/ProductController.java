@@ -1,30 +1,38 @@
 package com.mybasket.app.controller;
 
 
+import com.mybasket.app.entity.FileMetaData;
 import com.mybasket.app.dto.PageResponse;
 import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
+import com.mybasket.app.service.FileStorageService;
 import com.mybasket.app.service.ProductService;
 import jakarta.validation.Valid;
 
-import org.springframework.data.domain.Page;
+import lombok.RequiredArgsConstructor;
+import org.apache.coyote.BadRequestException;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
-import java.util.List;
+import java.io.IOException;
+import java.net.MalformedURLException;
 
 //@Controller
 @RestController
 @RequestMapping("/products")
+@RequiredArgsConstructor
 public class ProductController {
 
 
-    private ProductService productService;
+    private final ProductService productService;
 
-    public ProductController(ProductService productService) {
-        this.productService = productService;
-    }
+    private final FileStorageService fileStorageService;
+
 
     //Resource : Product
 
@@ -36,9 +44,9 @@ public class ProductController {
             @RequestParam(value = "page", defaultValue = "0") int page,
             @RequestParam(value = "size", defaultValue = "10") int size,
             @RequestParam("sortBy") String sortBy,
-            @RequestParam(value = "sortDir",defaultValue = "asc") String sortDir
+            @RequestParam(value = "sortDir", defaultValue = "asc") String sortDir
     ) {
-        return productService.getAll(page, size,sortBy,sortDir);
+        return productService.getAll(page, size, sortBy, sortDir);
     }
 
     //get single  product
@@ -81,6 +89,53 @@ public class ProductController {
     public ResponseEntity<Void> deleteProduct(@PathVariable("productId") Long productId) {
         productService.delete(productId);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+
+    }
+
+    //controller method to upload product image
+    @PostMapping("/{productId}/image")
+    public ResponseEntity<FileMetaData> uploadProductImage(
+            @PathVariable("productId") Long productId,
+            @RequestParam("productImage") MultipartFile file
+    ) throws IOException {
+//        System.out.println(file.getOriginalFilename());
+
+        Product product = productService.get(productId);
+        FileMetaData fileMetaData = fileStorageService.uploadFile(file);
+        product.setImage(fileMetaData);
+
+//        image validation
+
+        System.out.println(file.getContentType());
+
+        if (!file.getContentType().equalsIgnoreCase("image/png") && !file.getContentType().equalsIgnoreCase("image/jpeg")) {
+            throw new BadRequestException("Invalid file type !");
+        }
+
+
+        // file upload code
+        productService.udpateProduct(productId, product);
+        return ResponseEntity.ok(fileMetaData);
+    }
+
+
+    @GetMapping("/{productId}/image")
+    public ResponseEntity<Resource> serveFile(
+            @PathVariable("productId") Long productId
+    ) throws MalformedURLException, BadRequestException {
+        Product product = productService.get(productId);
+        FileMetaData fileMetaData = product.getImage();
+
+        Resource resource = fileStorageService.loadFile(fileMetaData);
+
+        String contentType = fileMetaData.getFileType();
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType(contentType))
+                .header(
+                        HttpHeaders.CONTENT_DISPOSITION,
+                        "inline; filename=\"" + resource.getFilename() + "\""
+                )
+                .body(resource);
 
     }
 

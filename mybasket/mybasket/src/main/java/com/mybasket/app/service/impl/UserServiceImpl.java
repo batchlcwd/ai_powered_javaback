@@ -37,7 +37,7 @@ public class UserServiceImpl implements UserService {
         // Logic for updating password is not included here (should use encoder)
         // user.setEmail(userDto.getEmail());
         user.setPassword(userDto.getPassword()); // In real app, encode this
-        user.setUserImageUrl(userDto.getUserImageUrl());
+//        user.setUserImageUrl(userDto.getUserImageUrl());
 
         User updatedUser = userRepository.save(user);
         return modelMapper.map(updatedUser, UserDto.class);

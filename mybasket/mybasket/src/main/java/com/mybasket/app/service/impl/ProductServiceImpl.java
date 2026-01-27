@@ -3,6 +3,7 @@ package com.mybasket.app.service.impl;
 import com.mybasket.app.dto.PageResponse;
 import com.mybasket.app.dto.ProductDto;
 import com.mybasket.app.entity.Product;
+import com.mybasket.app.exception.ResourceNotFoundException;
 import com.mybasket.app.repository.ProductRepository;
 import com.mybasket.app.service.ProductService;
 import lombok.RequiredArgsConstructor;
@@ -40,7 +41,7 @@ public class ProductServiceImpl implements ProductService {
         oldProduct.setPrice(product.getPrice());
         oldProduct.setLive(product.isLive());
         oldProduct.setOutOfStock(product.isOutOfStock());
-        oldProduct.setImageUri(product.getImageUri());
+        oldProduct.setImage(product.getImage());
         return productRepository.save(oldProduct);
 
     }
@@ -58,7 +59,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product get(Long productId) {
-        return productRepository.findById(productId).orElseThrow(() -> new RuntimeException("product not found !!"));
+        return productRepository.findById(productId).orElseThrow(() -> new ResourceNotFoundException("product not found !!"));
     }
 
     @Override

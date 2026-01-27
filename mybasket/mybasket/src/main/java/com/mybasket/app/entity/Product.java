@@ -25,73 +25,14 @@ public class Product extends  BaseEntity {
     private  double price;
     private  boolean live;
     private  boolean outOfStock;
-    private  String imageUri;
+
+
+    @OneToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL,orphanRemoval = true)
+    private  FileMetaData image;
+
 
     @ManyToMany
     private Set<Category> categories=new LinkedHashSet<>();
 
 
-    public Long getProductId() {
-        return productId;
-    }
-
-    public void setProductId(Long productId) {
-        this.productId = productId;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getShort_description() {
-        return short_description;
-    }
-
-    public void setShort_description(String short_description) {
-        this.short_description = short_description;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public boolean isLive() {
-        return live;
-    }
-
-    public void setLive(boolean live) {
-        this.live = live;
-    }
-
-    public boolean isOutOfStock() {
-        return outOfStock;
-    }
-
-    public void setOutOfStock(boolean outOfStock) {
-        this.outOfStock = outOfStock;
-    }
-
-    public String getImageUri() {
-        return imageUri;
-    }
-
-    public void setImageUri(String imageUri) {
-        this.imageUri = imageUri;
-    }
 }

@@ -1,0 +1,31 @@
+00:13:01	Mohit Rakhra:	rtk create slices.
+00:19:47	madhu jatwa:	yes sir
+00:20:11	madhu jatwa:	sir apke auth wale project mai suna hai
+00:20:11	Mohit Rakhra:	in previous class in chatgpt you showed.
+00:21:32	Mohit Rakhra:	like material in angular?
+00:28:18	Prisha Dwivedi:	got it
+00:40:30	Prisha Dwivedi:	yes
+00:40:31	Mohit Rakhra:	ys
+00:44:10	Mohit Rakhra:	ys
+00:46:54	Mohit Rakhra:	ji
+01:00:58	Mohit Rakhra:	ys
+01:05:11	Mohit Rakhra:	figma will give template.We have to code it?
+01:08:02	Mohit Rakhra:	y
+01:08:03	Prisha Dwivedi:	me sir
+01:08:17	Prabhat Kumar:	try to make it
+01:12:32	Prisha Dwivedi:	will try
+01:13:55	Prisha Dwivedi:	ok
+01:15:22	Prisha Dwivedi:	great
+01:41:43	Prisha Dwivedi:	export mein
+01:44:55	Prisha Dwivedi:	yes
+01:56:08	Prisha Dwivedi:	y
+01:56:14	Prabhat Kumar:	yes
+01:57:58	Prabhat Kumar:	yes
+01:59:30	Prisha Dwivedi:	yes sir
+02:01:20	Mohit Rakhra:	sir will you also teach payment gateway integration and react with typescript?
+02:02:19	Mohit Rakhra:	ok
+02:02:47	Mohit Rakhra:	sure
+02:03:05	Mohit Rakhra:	i company we get design from figma?
+02:03:08	Prabhat Kumar:	gn
+02:03:10	Prisha Dwivedi:	good night
+02:03:19	Mohit Rakhra:	and we have to code it as it is?
