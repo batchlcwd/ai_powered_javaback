@@ -26,6 +26,7 @@ import java.net.MalformedURLException;
 @RestController
 @RequestMapping("/products")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ProductController {
 
 
