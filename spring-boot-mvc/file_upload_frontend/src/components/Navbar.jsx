@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Upload, Image as ImageIcon } from 'lucide-react';
+import { Upload, Image as ImageIcon, Home } from 'lucide-react';
 import { cn } from '../lib/utils'; // Keep ../ if file is in src/components
 
 export default function Navbar() {
     const navItems = [
-        { to: '/', label: 'Upload', icon: Upload },
+        { to: '/', label: 'Home', icon: Home },
+        { to: '/upload', label: 'Upload', icon: Upload },
         { to: '/view', label: 'View Images', icon: ImageIcon },
     ];
 
