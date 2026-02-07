@@ -29,7 +29,7 @@ public class MyBasketApp implements CommandLineRunner {
     @Autowired
     private ProductRepository productRepository;
 
-    public static void main(String[] args) {
+     void main(String[] args) {
         SpringApplication.run(MyBasketApp.class, args);
     }
 
