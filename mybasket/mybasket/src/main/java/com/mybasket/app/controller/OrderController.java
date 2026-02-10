@@ -5,6 +5,7 @@ import com.mybasket.app.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class OrderController {
     private final OrderService orderService;
 
     // Create order from cart
+    @PreAuthorize("hasRole('NORMAL')")
     @PostMapping
     public ResponseEntity<OrderDto> createOrder(@RequestBody Map<String, Object> request) {
         // Expecting { "userId": 1 }
@@ -30,12 +32,14 @@ public class OrderController {
     }
 
     @GetMapping("/{orderId}")
+
     public ResponseEntity<OrderDto> getOrder(@PathVariable Long orderId) {
         OrderDto orderDto = orderService.getOrder(orderId);
         return new ResponseEntity<>(orderDto, HttpStatus.OK);
     }
 
     @GetMapping("/user/{userId}")
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<List<OrderDto>> getUserOrders(@PathVariable Integer userId) {
         List<OrderDto> orders = orderService.getUserOrders(userId);
         return new ResponseEntity<>(orders, HttpStatus.OK);

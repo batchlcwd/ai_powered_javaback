@@ -16,6 +16,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -62,6 +63,7 @@ public class ProductController {
     // 10 methods
     //create product:
     @PostMapping
+    @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<ProductDto> createProduct(@Valid @RequestBody ProductDto productdto) {
 
         //validations ke logic manual
@@ -78,6 +80,7 @@ public class ProductController {
     }
 
     // update  products:
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{productId}")
     public ResponseEntity<Product> updateProduct(@PathVariable("productId") Long productId, @RequestBody Product product) {
         // fetch the existing product
@@ -86,6 +89,7 @@ public class ProductController {
     }
 
     //delete api for product:
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{productId}")
     public ResponseEntity<Void> deleteProduct(@PathVariable("productId") Long productId) {
         productService.delete(productId);
@@ -94,6 +98,7 @@ public class ProductController {
     }
 
     //controller method to upload product image
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/{productId}/image")
     public ResponseEntity<FileMetaData> uploadProductImage(
             @PathVariable("productId") Long productId,

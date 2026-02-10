@@ -1,5 +1,6 @@
 package com.mybasket.app.entity;
 
+import com.mybasket.app.security.ROLE;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -29,6 +30,16 @@ public class User  extends  BaseEntity{
 
     private String password;
 
+    private  boolean enable=true;
+
+    @Enumerated(EnumType.STRING)
+    private ROLE role=ROLE.ROLE_NORMAL;
+
+//
+
+//    @
+//    private  List<ROLE> roles= new ArrayList<>();
+//
 
 
     //this field will create new table :

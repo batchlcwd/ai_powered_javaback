@@ -6,6 +6,7 @@ import com.mybasket.app.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ public class CategoryController {
     private final CategoryService categoryService;
 
     // create
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<CategoryDto> createCategory(@RequestBody CategoryDto categoryDto) {
         CategoryDto category1 = categoryService.create(categoryDto);
@@ -44,6 +46,7 @@ public class CategoryController {
     }
 
     // update
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{categoryId}")
     public ResponseEntity<CategoryDto> update(@PathVariable("categoryId") Long categoryId,
             @RequestBody CategoryDto categoryDto) {
@@ -52,6 +55,7 @@ public class CategoryController {
     }
 
     // delete
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{categoryId}")
     public ResponseEntity<Void> delete(@PathVariable("categoryId") Long categoryId) {
         categoryService.delete(categoryId);

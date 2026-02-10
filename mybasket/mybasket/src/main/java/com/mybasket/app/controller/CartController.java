@@ -5,6 +5,7 @@ import com.mybasket.app.service.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -16,12 +17,14 @@ public class CartController {
 
     private final CartService cartService;
 
+    @PreAuthorize("hasRole('NORMAL')")
     @GetMapping("/{userId}")
     public ResponseEntity<CartDto> getCart(@PathVariable Integer userId) {
         CartDto cartDto = cartService.getCart(userId);
         return new ResponseEntity<>(cartDto, HttpStatus.OK);
     }
 
+    @PreAuthorize("hasRole('NORMAL')")
     @PostMapping("/{userId}")
     public ResponseEntity<CartDto> addToCart(@PathVariable Integer userId, @RequestBody Map<String, Object> request) {
         // Simplifying request body for basics. Expecting { "productId": 1, "quantity":
