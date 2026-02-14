@@ -60,9 +60,12 @@ public class AuthController {
 
             // access token generate karo
             String accessToken=jwtService.generateAccessToken(user);
+            String refreshToken= jwtService.generateRefreshToken(user);
             var tokenResponse= new TokenResponse();
+
             tokenResponse.setUser(modelMapper.map(user, UserDto.class));
             tokenResponse.setAccessToken(accessToken);
+            tokenResponse.setRefreshToken(refreshToken);
             return new ResponseEntity<>(tokenResponse, HttpStatus.OK);
 
 

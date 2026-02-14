@@ -1,6 +1,10 @@
 package com.mybasket.app.config;
 
 import ch.qos.logback.core.joran.spi.HttpUtil;
+import com.mybasket.app.security.AccessDeniedHandlerImpl;
+import com.mybasket.app.security.JwtAuthenticationEntryPoint;
+import com.mybasket.app.security.JwtAuthenticationFilter;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -11,6 +15,7 @@ import org.springframework.security.config.annotation.authentication.configurati
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -18,11 +23,16 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 @Configuration
 @EnableMethodSecurity
+@RequiredArgsConstructor
 public class SecurityConfig {
 
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
+    private final JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
+    private  final AccessDeniedHandlerImpl accessDeniedHandler;
 //    @Bean
 //    public UserDetailsService userDetailsService() {
 //
@@ -49,8 +59,11 @@ public class SecurityConfig {
                                 requests.anyRequest().permitAll()
 
                 )
-                .formLogin(Customizer.withDefaults())
-                .httpBasic(Customizer.withDefaults())
+                //.formLogin(Customizer.withDefaults())
+//                .httpBasic(Customizer.withDefaults())
+                .exceptionHandling(ex -> ex.authenticationEntryPoint(jwtAuthenticationEntryPoint).accessDeniedHandler(accessDeniedHandler))
+                .sessionManagement(e -> e.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         ;
 
