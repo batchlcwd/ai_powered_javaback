@@ -1,5 +1,6 @@
 package com.substring.resume.analyzer.controllers;
 
+import com.substring.resume.analyzer.payload.ResumeAnalysisResult;
 import com.substring.resume.analyzer.services.ResumeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -25,7 +26,7 @@ public class ResumeController {
             @RequestParam("jobProfile") String jobProfile
             ) throws IOException {
 
-        String result = resumeService.analyzeResume(resumeFile, jobProfile);
+        ResumeAnalysisResult result = resumeService.analyzeResume(resumeFile, jobProfile);
         return  new ResponseEntity<>(result, HttpStatus.OK);
 
 

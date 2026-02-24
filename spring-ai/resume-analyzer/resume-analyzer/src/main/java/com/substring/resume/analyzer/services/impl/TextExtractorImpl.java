@@ -25,4 +25,9 @@ public class TextExtractorImpl implements TextExtractor {
     public String fromDocx(MultipartFile file) {
         return "";
     }
+
+    @Override
+    public String fromText(MultipartFile file) {
+        return "";
+    }
 }

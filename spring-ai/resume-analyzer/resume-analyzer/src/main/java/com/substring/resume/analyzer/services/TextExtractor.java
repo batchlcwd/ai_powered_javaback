@@ -10,4 +10,8 @@ public interface TextExtractor {
 
     String fromDocx(MultipartFile file);
 
+    String fromText(MultipartFile file);
+
+
+
 }
