@@ -46,7 +46,7 @@ public class ResumeServiceImpl implements ResumeService {
         if (resumeText.isEmpty()) {
             throw new InvalidRequestException("File does not contain any data");
         }
-        
+
 
         //clean
 
